@@ -1,0 +1,27 @@
+
+# newdoc id = weblog-blogspot.com_nominations_20041117172713_ENG_20041117_172713
+# sent_id = weblog-blogspot.com_nominations_20041117172713_ENG_20041117_172713-0001
+# newpar id = weblog-blogspot.com_nominations_20041117172713_ENG_20041117_172713-p0001
+# text = From the AP comes this story :
+1	From	from	ADP	IN	_	3	case	3:case	_
+2	the	the	DET	DT	Definite=Def|PronType=Art	3	det	3:det	_
+3	AP	AP	PROPN	NNP	Number=Sing	4	obl	4:obl:from	_
+4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	_
+5	this	this	DET	DT	Number=Sing|PronType=Dem	6	det	6:det	_
+6	story	story	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	_
+7	:	:	PUNCT	:	_	4	punct	4:punct	_
+
+# sent_id = test-s1
+# text = 然而，这样的处理也衍生了一些问题。
+# translit = rán'ér,zhèyàngdechùlǐyěyǎnshēngleyīxiēwèntí.
+1	然而	然而	SCONJ	RB	_	7	mark	_	SpaceAfter=No|Translit=rán'ér|LTranslit=rán'ér
+2	，	，	PUNCT	,	_	1	punct	_	SpaceAfter=No|Translit=,|LTranslit=,
+3	这样	这样	PRON	PRD	_	5	det	_	SpaceAfter=No|Translit=zhèyàng|LTranslit=zhèyàng
+4	的	的	PART	DEC	Case=Gen	3	case	_	SpaceAfter=No|Translit=de|LTranslit=de
+5	处理	处理	NOUN	NN	_	7	nsubj	_	SpaceAfter=No|Translit=chùlǐ|LTranslit=chùlǐ
+6	也	也	SCONJ	RB	_	7	mark	_	SpaceAfter=No|Translit=yě|LTranslit=yě
+7	衍生	衍生	VERB	VV	_	0	root	_	SpaceAfter=No|Translit=yǎnshēng|LTranslit=yǎnshēng
+8	了	了	AUX	AS	Aspect=Perf	7	aux	_	SpaceAfter=No|Translit=le|LTranslit=le
+9	一些	一些	ADJ	JJ	_	10	amod	_	SpaceAfter=No|Translit=yīxiē|LTranslit=yīxiē
+10	问题	问题	NOUN	NN	_	7	obj	_	SpaceAfter=No|Translit=wèntí|LTranslit=wèntí
+11	。	。	PUNCT	.	_	7	punct	_	SpaceAfter=No|Translit=.|LTranslit=.
