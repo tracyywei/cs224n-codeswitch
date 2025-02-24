@@ -11,6 +11,8 @@ def evaluate_finetuned(test_file, output_file, model, tokenizer, config, pos_lab
                                     pos_label2id=pos_label2id, 
                                     dep_label2id=dep_label2id,
                                     max_length=config.max_length)
+    print("Number of examples in test dataset:", len(test_dataset))
+
     model.eval()
     id2pos = {v: k for k, v in pos_label2id.items()}
     id2dep = {v: k for k, v in dep_label2id.items()}
@@ -79,9 +81,46 @@ def annotate_xnli(tsv_file, output_file, model, tokenizer, config):
             dep_tags = [str(pred_dep[i]) for i in range(len(words))]
             fout.write(sentence + "\t" + " ".join(pos_tags) + "\t" + " ".join(dep_tags) + "\n")
 
+def compute_accuracy(test_dataset, model, tokenizer, config, pos_label2id, dep_label2id):
+    test_dataset = UDParsingDataset(test_dataset, tokenizer, 
+                                    pos_label2id=pos_label2id, 
+                                    dep_label2id=dep_label2id,
+                                    max_length=config.max_length)
+    model.eval()
+    total_pos_tokens = 0
+    correct_pos = 0
+    total_dep_tokens = 0
+    correct_dep = 0
+    device = model.device
+
+    with torch.no_grad():
+        for example in test_dataset:
+            input_ids = example["input_ids"].unsqueeze(0).to(device)
+            attention_mask = example["attention_mask"].unsqueeze(0).to(device)
+            gold_pos = example["pos_labels"].to(device) 
+            gold_dep = example["dep_labels"].to(device)
+            
+            pos_logits, dep_logits, head_logits, _ = model(input_ids, attention_mask,
+                                                           pos_labels=None, dep_labels=None, head_labels=None)
+
+            pos_preds = pos_logits.argmax(dim=-1).squeeze(0) 
+            dep_preds = dep_logits.argmax(dim=-1).squeeze(0)
+            
+            mask = (gold_pos != -100)
+            total_pos_tokens += mask.sum().item()
+            correct_pos += ((pos_preds == gold_pos) & mask).sum().item()
+
+            mask_dep = (gold_dep != -100)
+            total_dep_tokens += mask_dep.sum().item()
+            correct_dep += ((dep_preds == gold_dep) & mask_dep).sum().item()
+    
+    pos_accuracy = correct_pos / total_pos_tokens if total_pos_tokens > 0 else 0
+    dep_accuracy = correct_dep / total_dep_tokens if total_dep_tokens > 0 else 0
+    return pos_accuracy, dep_accuracy
+
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["eval_conllu", "annotate_xnli"], required=True)
+    parser.add_argument("--mode", choices=["eval_finetuned", "annotate_xnli", "compute_accuracy"], required=True)
     parser.add_argument("--input_file", type=str, required=True, help="Path to input file (test CoNLL-U or XNLI TSV)")
     parser.add_argument("--output_file", type=str, required=True, help="Path to save the annotated output")
     parser.add_argument("--model_path", type=str, required=True, help="Path to the fine-tuned model state dict")
@@ -90,14 +129,19 @@ def main():
 
     tokenizer = BertTokenizerFast.from_pretrained("bert-base-multilingual-cased")
 
-    state_dict = torch.load(args.model_path, map_location="cpu")
+    state_dict = torch.load(args.model_path)
     pos_label2id = state_dict["pos_label2id"]
     dep_label2id = state_dict["dep_label2id"]
     max_length = state_dict["max_length"]
     num_pos_labels = len(pos_label2id)
     num_dep_labels = len(dep_label2id)
 
-    model = BertForParsing(num_pos_labels, num_dep_labels, max_length=args.max_length, pretrained_model_name=args.pretrained_model)
+    print("Number of POS labels: ", num_pos_labels)
+    print("Number of Dependency labels: ", num_dep_labels)
+    print(pos_label2id)
+    print(dep_label2id)
+
+    model = BertForParsing(num_pos_labels, num_dep_labels, max_length=max_length)
     model.load_state_dict(state_dict["model_state_dict"])
     model.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(model.device)
@@ -107,10 +151,15 @@ def main():
     config = Config()
     config.max_length = args.max_length
 
-    if args.mode == "evaluate_finetuned":
+    if args.mode == "eval_finetuned":
+        print("eval_finetuned")
         evaluate_finetuned(args.input_file, args.output_file, model, tokenizer, config, pos_label2id, dep_label2id)
     elif args.mode == "annotate_xnli":
         annotate_xnli(args.input_file, args.output_file, model, tokenizer, config)
+    elif args.mode == "compute_accuracy":
+        pos_acc, dep_acc = compute_accuracy(args.input_file, model, tokenizer, config, pos_label2id, dep_label2id)
+        print("POS Accuracy: {:.2f}%".format(pos_acc * 100))
+        print("Dependency Accuracy: {:.2f}%".format(dep_acc * 100))
 
 if __name__ == "__main__":
     main()

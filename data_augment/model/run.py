@@ -16,9 +16,9 @@ def main():
     argp.add_argument("--dev_file", type=str, required=True)
     argp.add_argument("--output_model", type=str, required=True)
     argp.add_argument("--max_length", type=int, default=128)
-    argp.add_argument("--max_epochs", type=int, default=3)
-    argp.add_argument("--batch_size", type=int, default=256)
-    argp.add_argument("--learning_rate", type=float, default=6e-4)
+    argp.add_argument("--max_epochs", type=int, default=10)
+    argp.add_argument("--batch_size", type=int, default=32)
+    argp.add_argument("--learning_rate", type=float, default=3e-5)
     args = argp.parse_args()
 
     device = 'cpu'
@@ -49,7 +49,7 @@ def main():
     print("Number of POS labels:", num_pos_labels)
     print("Number of dependency labels:", num_dep_labels)
 
-    model = BertForParsing(num_pos_labels, num_dep_labels, pretrained_model_name="bert-base-multilingual-cased")
+    model = BertForParsing(num_pos_labels, num_dep_labels, max_length=128, pretrained_model_name="bert-base-multilingual-cased")
     
     trainer_config = TrainerConfig(max_epochs=args.max_epochs, batch_size=args.batch_size, learning_rate=args.learning_rate,
                                    lr_decay=True, warmup_tokens=512*20, final_tokens=200*len(train_dataset)*128,
