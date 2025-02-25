@@ -123,9 +123,9 @@ def compute_accuracy(test_dataset, model, tokenizer, config, pos_label2id, dep_l
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=["eval_finetuned", "annotate_xnli", "compute_accuracy"], required=True)
+    parser.add_argument("--mode", choices=["eval_finetuned", "eval_unfinetuned", "annotate_xnli", "compute_accuracy"], required=True)
     parser.add_argument("--input_file", type=str, required=True, help="Path to input file (test CoNLL-U or XNLI TSV)")
-    parser.add_argument("--output_file", type=str, required=True, help="Path to save the annotated output")
+    parser.add_argument("--output_file", type=str, help="Path to save the annotated output")
     parser.add_argument("--model_path", type=str, required=True, help="Path to the fine-tuned model state dict")
     parser.add_argument("--max_length", type=int, default=128)
     args = parser.parse_args()
@@ -140,7 +140,10 @@ def main():
     num_dep_labels = len(dep_label2id)
 
     model = BertForParsing(num_pos_labels, num_dep_labels, max_length=max_length)
-    model.load_state_dict(state_dict["model_state_dict"])
+
+    if args.mode != "eval_unfinetuned":
+        model.load_state_dict(state_dict["model_state_dict"])
+
     model.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model.to(model.device)
 
@@ -150,11 +153,15 @@ def main():
     config.max_length = args.max_length
 
     if args.mode == "eval_finetuned":
-        print("eval_finetuned")
         evaluate_finetuned(args.input_file, args.output_file, model, tokenizer, config, pos_label2id, dep_label2id)
     elif args.mode == "annotate_xnli":
         annotate_xnli(args.input_file, args.output_file, model, tokenizer, config, pos_label2id, dep_label2id)
     elif args.mode == "compute_accuracy":
+        pos_acc, dep_acc = compute_accuracy(args.input_file, model, tokenizer, config, pos_label2id, dep_label2id)
+        print("POS Accuracy: {:.2f}%".format(pos_acc * 100))
+        print("Dependency Accuracy: {:.2f}%".format(dep_acc * 100))
+    if args.mode == "eval_unfinetuned":
+        evaluate_finetuned(args.input_file, args.output_file, model, tokenizer, config, pos_label2id, dep_label2id)
         pos_acc, dep_acc = compute_accuracy(args.input_file, model, tokenizer, config, pos_label2id, dep_label2id)
         print("POS Accuracy: {:.2f}%".format(pos_acc * 100))
         print("Dependency Accuracy: {:.2f}%".format(dep_acc * 100))
