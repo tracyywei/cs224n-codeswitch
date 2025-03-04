@@ -3,31 +3,26 @@ import torch # type: ignore
 
 from transformers import MT5ForConditionalGeneration, MT5Tokenizer # type: ignore
 from trainer import Trainer, TrainerConfig
-from codeswitch_trainer import CodeswitchTrainer, CodeswitchTrainerConfig
 from data_augment.codeswitch_model.parsed_dataset import ParsedDataset
-from torch.utils.tensorboard import SummaryWriter               # type: ignore
-import datasets
 
+from codeswitch_trainer import CodeswitchTrainer, CodeswitchTrainerConfig
+from codeswitch_dataset import CodeswitchDataset
+
+from torch.utils.tensorboard import SummaryWriter               # type: ignore
 
 def finetune_mT5_codeswitched():
     '''
     STEP 1: Finetune on codeswitched data
     '''
-    dataset = datasets.load_dataset("CAiRE/ASCEND")['train']
-    dataset = [datapoint['transcription'] for datapoint in dataset]
-
-    # TODO: add masking to the dataset
-
+    dataset = CodeswitchDataset(block_size=128)
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
 
-    # TODO: fix trainer config to include the proper params 
     tconf = TrainerConfig(
-        max_epochs=10,
-        batch_size=32,
-        learning_rate=3e-5,
-        
+        max_epochs=5,
+        batch_size=16,
+        learning_rate=2e-5,
         lr_decay=True,
-        num_workers=0, 
+        num_workers=4, 
     )
 
     trainer = Trainer(
@@ -45,6 +40,7 @@ def finetune_mT5_codeswitched_generation(dataset):
     '''
     STEP 2: Finetune for codeswitch generation on the parsed dataset
     '''
+    # TODO: figure out which argparse params are needed and consider hardcoding the rest
     argp = argparse.ArgumentParser()
     argp.add_argument("--train_file", type=str, required=True)
     argp.add_argument("--dev_file", type=str, required=True)
@@ -87,7 +83,5 @@ def finetune_mT5_codeswitched_generation(dataset):
 
 
 if __name__ == '__main__':
-    filepath = "../outputs/xnli_annotated_dev.txt" 
-    tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
-    dataset = ParsedDataset(filepath, tokenizer)
-    finetune_mT5_codeswitched_generation(dataset)
+    # run step 1
+    finetune_mT5_codeswitched()

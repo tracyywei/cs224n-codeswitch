@@ -3,31 +3,33 @@
 import math
 import logging
 
-from tqdm import tqdm       # type: ignore
-import numpy as np      # type: ignore  
+from tqdm import tqdm                                # type: ignore
+import numpy as np                                   # type: ignore  
 
-import torch          # type: ignore
-import torch.optim as optim     # type: ignore
-from torch.optim.lr_scheduler import LambdaLR       # type: ignore
+import torch                                         # type: ignore
+import torch.optim as optim                          # type: ignore
+from torch.optim.lr_scheduler import LambdaLR        # type: ignore
 from torch.utils.data.dataloader import DataLoader   # type: ignore
 
 logger = logging.getLogger(__name__)
 
 class CodeswitchTrainerConfig:
     # optimization parameters
-    max_epochs = 10
-    batch_size = 64
-    learning_rate = 3e-4
-    betas = (0.9, 0.95)
+    max_epochs = 5          # goal range is 5-10 epochs
+    batch_size = 16         # goal range is 8-32
+    learning_rate = 2e-4    # reduced from 3e-4
+    betas = (0.9, 0.999) 
     grad_norm_clip = 1.0
-    weight_decay = 0.1 # only applied on matmul weights
+    weight_decay = 0.01     # only applied on matmul weights, avoid overregularization
+    
     # learning rate decay params: linear warmup followed by cosine decay to 10% of original
-    lr_decay = False
-    warmup_tokens = 375e6 # these two numbers come from the GPT-3 paper, but may not be good defaults elsewhere
-    final_tokens = 260e9 # (at what point we reach 10% of original LR)
+    lr_decay = True
+    warmup_tokens = 1e6
+    final_tokens = 10e9
+    
     # checkpoint settings
-    ckpt_path = None
-    num_workers = 0 # for DataLoader
+    ckpt_path = "./checkpoints/mT5_finetuned.pth"
+    num_workers = 4 # for DataLoader
     writer = None
     
     def __init__(self, **kwargs):
