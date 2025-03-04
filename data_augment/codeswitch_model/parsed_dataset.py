@@ -1,6 +1,6 @@
-import torch
-from torch.utils.data import Dataset, DataLoader
-from transformers import MT5Tokenizer
+import torch # type: ignore
+from torch.utils.data import Dataset, DataLoader # type: ignore
+from transformers import MT5Tokenizer # type: ignore
 
 class ParsedDataset(Dataset):
   def __init__(self, file_path, tokenizer, max_length=128):

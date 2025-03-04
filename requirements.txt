@@ -10,3 +10,6 @@ lxml==5.0.0
 sacrebleu
 tensorboard
 transformers
+datasets
+librosa
+soundfile
