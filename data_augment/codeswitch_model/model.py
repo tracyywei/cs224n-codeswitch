@@ -3,26 +3,30 @@ import torch # type: ignore
 
 from transformers import MT5ForConditionalGeneration, MT5Tokenizer # type: ignore
 from trainer import Trainer, TrainerConfig
-from data_augment.codeswitch_model.parsed_dataset import ParsedDataset
+from parsed_dataset import ParsedDataset
 
-from codeswitch_trainer import CodeswitchTrainer, CodeswitchTrainerConfig
 from codeswitch_dataset import CodeswitchDataset
-
 from torch.utils.tensorboard import SummaryWriter               # type: ignore
 
 def finetune_mT5_codeswitched():
     '''
     STEP 1: Finetune on codeswitched data
     '''
-    dataset = CodeswitchDataset(block_size=128)
+    tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
+    dataset = CodeswitchDataset(tokenizer=tokenizer, block_size=128)
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
 
     tconf = TrainerConfig(
-        max_epochs=5,
-        batch_size=16,
-        learning_rate=2e-5,
-        lr_decay=True,
-        num_workers=4, 
+        max_epochs = 5,          # goal range is 5-10 epochs
+        batch_size = 16,         # goal range is 8-32
+        learning_rate = 2e-4,    
+        betas = (0.9, 0.999), 
+        weight_decay = 0.01,     # avoid overregularization
+        lr_decay = True,
+        warmup_tokens = 1e6,
+        final_tokens = 10e9,
+        ckpt_path = "./checkpoints/mT5_finetuned.pth",
+        num_workers = 0, 
     )
 
     trainer = Trainer(
@@ -61,7 +65,7 @@ def finetune_mT5_codeswitched_generation(dataset):
     model = torch.load('mt5_intermediate_finetuned.pth')
 
     # TODO: fix trainer config to include the proper params 
-    tconf = CodeswitchTrainerConfig(
+    tconf = TrainerConfig(
         max_epochs=10,
         batch_size=64,
         learning_rate=3e-5,
@@ -71,7 +75,7 @@ def finetune_mT5_codeswitched_generation(dataset):
         writer=writer
     )
 
-    trainer = CodeswitchTrainer(
+    trainer = Trainer(
         model=model,
         train_dataset=dataset,
         dev_dataset=None,

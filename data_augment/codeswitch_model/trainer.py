@@ -90,9 +90,12 @@ class Trainer:
                 labels = batch['labels'].to(self.device)
 
                 with torch.set_grad_enabled(is_train):
-                    logits, loss = model(
-                        input_ids, attention_mask, labels
+                    output = model(
+                        input_ids=input_ids, attention_mask=attention_mask, labels=labels
                     )
+                    loss = output.loss
+                    logits = output.logits
+
                     loss = loss.mean()  # if model is wrapped in DataParallel
                     losses.append(loss.item())
 
