@@ -26,7 +26,7 @@ def finetune_mT5_codeswitched():
         warmup_tokens = 1e6,
         final_tokens = 10e9,
         ckpt_path = "./checkpoints/mT5_finetuned.pth",
-        num_workers = 0, 
+        num_workers = 4, 
     )
 
     trainer = Trainer(

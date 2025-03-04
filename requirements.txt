@@ -13,3 +13,4 @@ transformers
 datasets
 librosa
 soundfile
+sentencepiece
