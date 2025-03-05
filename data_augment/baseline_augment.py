@@ -5,10 +5,10 @@ import csv
 import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_TSV = os.path.join(BASE_DIR, "datasets/xnli/xnli.dev.tsv")
-DICT_ZH = os.path.join(BASE_DIR, "datasets/dict/zh2.txt")
-DICT_ES = os.path.join(BASE_DIR, "datasets/dict/es2.txt")
-OUTPUT_TSV = os.path.join(BASE_DIR, "datasets/baseline_augmented/spanglish.tsv")
+INPUT_TSV = os.path.join(BASE_DIR, "dataset/xnli/xnli.dev.tsv")
+DICT_ZH = os.path.join(BASE_DIR, "dataset/dict/zh2.txt")
+DICT_ES = os.path.join(BASE_DIR, "dataset/dict/es2.txt")
+OUTPUT_TSV = os.path.join(BASE_DIR, "dataset/baseline_augmented/spanglish.tsv")
 CROSS_PROB = 1.0
 RATIO = 0.6
 INPUT_COLS = ["sentence1", "sentence2"]
