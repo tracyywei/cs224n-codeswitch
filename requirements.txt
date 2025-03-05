@@ -10,3 +10,5 @@ lxml==5.0.0
 sacrebleu
 tensorboard
 transformers
+sentence_transformers
+datasets
