@@ -1,96 +1,120 @@
 import csv
 import nltk
-from nltk.translate.bleu_score import sentence_bleu
+import pickle
+import torch
+from tqdm import tqdm
+from multiprocessing import Pool, cpu_count
+from nltk.translate.bleu_score import sentence_bleu, SmoothingFunction
 from nltk.translate.meteor_score import meteor_score
 from nltk.translate.chrf_score import sentence_chrf
 from transformers import MarianMTModel, MarianTokenizer
-import torch
 
-nltk.download('all')
+nltk.download('all', quiet=True)
 
-en_zh_model = 'Helsinki-NLP/opus-mt-en-zh'  # English → Chinese
-zh_en_model = 'Helsinki-NLP/opus-mt-zh-en'  # Chinese → English
+device = "cuda" if torch.cuda.is_available() else "cpu"
+
+en_zh_model = 'Helsinki-NLP/opus-mt-en-zh'
+zh_en_model = 'Helsinki-NLP/opus-mt-zh-en'
 
 tokenizer_en_zh = MarianTokenizer.from_pretrained(en_zh_model)
-model_en_zh = MarianMTModel.from_pretrained(en_zh_model)
+model_en_zh = MarianMTModel.from_pretrained(en_zh_model).to(device).half()
 
 tokenizer_zh_en = MarianTokenizer.from_pretrained(zh_en_model)
-model_zh_en = MarianMTModel.from_pretrained(zh_en_model)
+model_zh_en = MarianMTModel.from_pretrained(zh_en_model).to(device).half()
 
-def translate(text, tokenizer, model):
-    if not text.strip():
-        return ""  # Handle empty input
-    inputs = tokenizer(text, return_tensors='pt', padding=True, truncation=True)
-    with torch.no_grad():
-        translated = model.generate(**inputs)
-    return tokenizer.decode(translated[0], skip_special_tokens=True)
-
-def compute_similarity_scores(reference, hypothesis):
+def compute_similarity_scores(params):
+    reference, hypothesis = params
     if not reference.strip() or not hypothesis.strip():
-        return 0.0, 0.0, 0.0  # Handle empty input
+        return 0.0, 0.0, 0.0
     
-    reference_tokens = nltk.word_tokenize(reference)  # Tokenize reference sentence
-    hypothesis_tokens = nltk.word_tokenize(hypothesis)  # Tokenize hypothesis sentence
+    reference_tokens = nltk.word_tokenize(reference)
+    hypothesis_tokens = nltk.word_tokenize(hypothesis)
 
     smoothie = SmoothingFunction().method1
     bleu = sentence_bleu([reference_tokens], hypothesis_tokens, smoothing_function=smoothie)
-    
     meteor = meteor_score([reference_tokens], hypothesis_tokens)
-    chrf = sentence_chrf(reference, hypothesis)
+    chrf = sentence_chrf(reference, hypothesis) 
     return bleu, meteor, chrf
 
-def count_lines(file_path):
-    with open(file_path, "r", encoding="utf-8") as f:
-        return sum(1 for _ in f) - 1  # Subtract 1 for header row
+def translate_batch(texts, tokenizer, model):
+    if not texts:
+        return []
+    
+    translated_texts = []
+    batch_size = 64 if torch.cuda.is_available() else 16
+
+    for i in tqdm(range(0, len(texts), batch_size), desc=desc, ncols=80, ascii=True):
+        batch = texts[i:i+batch_size]
+        inputs = tokenizer(batch, return_tensors='pt', padding=True, truncation=True).to(device)
+        with torch.no_grad():
+            translated = model.generate(**inputs)
+        translated_texts.extend([tokenizer.decode(t, skip_special_tokens=True) for t in translated])
+    
+    return translated_texts
 
 def evaluate_tsv(file_path):
     results = []
-    avg_bleu_en = avg_meteor_en = avg_chrf_en = 0.0
-    avg_bleu_zh = avg_meteor_zh = avg_chrf_zh = 0.0
-    count = 0
-    total_lines = count_lines(file_path)
-
     with open(file_path, "r", encoding="utf-8") as fin:
         reader = csv.DictReader(fin, delimiter="\t")
-        for row in tqdm(reader, total=total_lines, desc="processing sentences", ncols=80, ascii=True):
-            original_english = row["original_english"]
-            augmented_english = row["augmented_chinglish"]
-            chinese_sentence = row["original_chinese"]
+        data = list(reader)
 
-            # back translate Augmented English → English
-            back_translated_english = translate(augmented_english, tokenizer_zh_en, model_zh_en)
+    total_lines = len(data)
+    augmented_english_sentences = [row["augmented_chinglish"].strip() for row in data]
 
-            # back translate Augmented English → Chinese
-            back_translated_chinese = translate(augmented_english, tokenizer_en_zh, model_en_zh)
+    try:
+        with open("saved_translations.pkl", "rb") as f:
+            translations = pickle.load(f)
+        back_translated_english = translations["back_translated_english"]
+        back_translated_chinese = translations["back_translated_chinese"]
+    except FileNotFoundError:
+        back_translated_chinese = translate_batch(augmented_english_sentences, tokenizer_en_zh, model_en_zh)
+        back_translated_english = translate_batch(augmented_english_sentences, tokenizer_zh_en, model_zh_en)
 
-            bleu_en, meteor_en, chrf_en = compute_similarity_scores(original_english, back_translated_english)
-            bleu_zh, meteor_zh, chrf_zh = compute_similarity_scores(chinese_sentence, back_translated_chinese)
+        translations = {
+            "back_translated_english": back_translated_english,
+            "back_translated_chinese": back_translated_chinese
+        }
+        with open("saved_translations.pkl", "wb") as f:
+            pickle.dump(translations, f)
 
-            results.append({
-                "original_english": original_english,
-                "augmented_chinglish": augmented_english,
-                "original_chinese": chinese_sentence,
-                "back_translated_english": back_translated_english,
-                "bleu_en": bleu_en, "meteor_en": meteor_en, "chrf_en": chrf_en,
-                "back_translated_chinese": back_translated_chinese,
-                "bleu_zh": bleu_zh, "meteor_zh": meteor_zh, "chrf_zh": chrf_zh,
-            })
+    en_pairs = [(row["original_english"].strip(), back_translated_english[i]) for i, row in enumerate(data)]
+    zh_pairs = [(row["original_chinese"].strip(), back_translated_chinese[i]) for i, row in enumerate(data)]
+    with Pool(cpu_count()) as pool:
+        en_scores = list(tqdm(pool.imap(compute_similarity_scores, en_pairs), total=total_lines, desc="Scoring English", ncols=80, ascii=True))
+        zh_scores = list(tqdm(pool.imap(compute_similarity_scores, zh_pairs), total=total_lines, desc="Scoring Chinese", ncols=80, ascii=True))
 
-            avg_bleu_en += bleu_en
-            avg_meteor_en += meteor_en
-            avg_chrf_en += chrf_en
-            avg_bleu_zh += bleu_zh
-            avg_meteor_zh += meteor_zh
-            avg_chrf_zh += chrf_zh
-            count += 1
+    avg_bleu_en = avg_meteor_en = avg_chrf_en = 0.0
+    avg_bleu_zh = avg_meteor_zh = avg_chrf_zh = 0.0
 
-    if count > 0:
-        avg_bleu_en /= count
-        avg_meteor_en /= count
-        avg_chrf_en /= count
-        avg_bleu_zh /= count
-        avg_meteor_zh /= count
-        avg_chrf_zh /= count
+    for i, row in enumerate(data):
+        bleu_en, meteor_en, chrf_en = en_scores[i]
+        bleu_zh, meteor_zh, chrf_zh = zh_scores[i]
+
+        results.append({
+            "original_english": row["original_english"].strip(),
+            "augmented_chinglish": row["augmented_chinglish"].strip(),
+            "original_chinese": row["original_chinese"].strip(),
+            "back_translated_english": back_translated_english[i],
+            "bleu_en": bleu_en, "meteor_en": meteor_en, "chrf_en": chrf_en,
+            "back_translated_chinese": back_translated_chinese[i],
+            "bleu_zh": bleu_zh, "meteor_zh": meteor_zh, "chrf_zh": chrf_zh,
+        })
+
+        avg_bleu_en += bleu_en
+        avg_meteor_en += meteor_en
+        avg_chrf_en += chrf_en
+        avg_bleu_zh += bleu_zh
+        avg_meteor_zh += meteor_zh
+        avg_chrf_zh += chrf_zh
+
+    total = len(data)
+    if total > 0:
+        avg_bleu_en /= total
+        avg_meteor_en /= total
+        avg_chrf_en /= total
+        avg_bleu_zh /= total
+        avg_meteor_zh /= total
+        avg_chrf_zh /= total
 
     print(f"\n### Evaluation Summary ###")
     print(f"Avg BLEU (English): {avg_bleu_en:.4f} | Avg METEOR (English): {avg_meteor_en:.4f} | Avg ChrF (English): {avg_chrf_en:.4f}")
