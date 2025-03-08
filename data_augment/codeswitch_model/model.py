@@ -53,21 +53,21 @@ def finetune_mT5_codeswitched_generation(dataset):
     STEP 2: Finetune for codeswitch generation on the parsed dataset
     '''
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
-    # model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth'))   # uncomment for gpu
-    model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
+    model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth'))   # uncomment for gpu
+    # model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
   
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
 
     dataset = ParsedDataset(dataset, tokenizer=tokenizer)
 
     tconf = TrainerConfig(
-        max_epochs=8,       # goal range is 5-10 epochs
-        batch_size=16,      # reduce from 16 to 8 if OOM occurs 
+        max_epochs=10,       # goal range is 5-10 epochs
+        batch_size=8,       # 16 gives OOM error
         learning_rate=3e-4,
         lr_decay=True,
         betas = (0.9, 0.98),           
         weight_decay = 0.01,   # Regularization to prevent overfitting
-        num_workers=0,      # change to 2 when running on gpu (0 for cpu)
+        num_workers=2,      # change to 2 when running on gpu (0 for cpu)
     )
 
     trainer = Trainer(
@@ -81,10 +81,22 @@ def finetune_mT5_codeswitched_generation(dataset):
     torch.save(model.state_dict(), 'mt5_finetuned.pth')
 
 
+def generate_codeswitched_text(model, tokenizer, text):
+    '''
+    Generate codeswitched text
+    '''
+    inputs = tokenizer(text, return_tensors="pt", padding=True)
+    input_ids = inputs["input_ids"]
+    attention_mask = inputs["attention_mask"]
+
+    outputs = model.generate(input_ids, attention_mask=attention_mask, max_length=128, num_beams=5, early_stopping=True)
+    return tokenizer.decode(outputs[0], skip_special_tokens=True)
+
+
 if __name__ == '__main__':
     # run step 1
     # finetune_mT5_codeswitched()
 
     # run step 2
-    dataset = "../outputs/xnli_annotated_dev.txt"
+    dataset = "outputs/xnli_annotated_dev.txt"
     finetune_mT5_codeswitched_generation(dataset)
