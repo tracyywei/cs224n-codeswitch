@@ -1,0 +1,942 @@
+hello	ADJ	acl
+hello there, I have not seen this movie so im going to take a minute to look it over :)	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Alright that is fine. What is the movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+The movie is The Social Network	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I have not seen that one either.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It appears to be like a biographical movie about Mark Zuckerberg and when he creates Facebook.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Ohh yes I remember hearing about that movie, but it was a long time ago it feels like.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Rotten Tomatoes has rated it 96% so that's decent, and it is a movie from 2010	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+may be worth watching!	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Yes I think it could be, although I personally do not like facebook as a company.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+the movie portrays the founding of social networking website Facebook and the resulting lawsuits. It even has Justin Timberlake in it, I don't think I've ever seen him act.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+I have not seen him in any movies in years	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Any other big name actors in it?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+hmm so I just got a scene described to me, it turns out Mark was dumped so he made a blog about her ... kind of childish.... then he made a site for people to "rate" women on looks...the college put him on porbation. and then that captured the attention of two classmates , that how the trio came to work on facebook I guess.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer nsubj:pass nummod obj obl obl:agent obl:arg obl:patient obl:unmarked orphan parataxis punct reparandum root vocative xcomp UNK UNK
+So it came out of Mark being kind of a douche, Makes sense when I think about the company	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Jesse Eisenberg, Andrew Garfield, Armie Hammer , and Max Minghella, not famailiar with any of those, id have to look on IMBD	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+I am not familiar  with any of them either	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+another scene came up, i guess this site was just for hrvard but then they expanded to Yale, Columbia, and Stanford... sounds very elite like lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse
+Seems like it was intended for the elite, but he saw the amount of money to be made by globalizing it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+and go figure Sean Parker who co founded Napster is in on it with Mark to make Facebook, i guess he is the one who persuaded him to drop the THE  as it was called Thefacebook originally	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj
+removing the word "the" was a smart choice atleast	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+yeah, flows a bit better I suppose so you can say "facebook me" lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+ah new scene, talking about all the lawsuits that came against him.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I feel like he has always been in trouble for the way he operates then	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Now it is the way he markets ads by listening through the phones	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+ending sounds weird, they said it ends with him sending a friend request to his ex who dumped him.  ironic.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Im sure that was just for the hollywood effect	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+yeah, he is a very selfish type of person I think in reality	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I agree	ADJ ADP	acl acl:relcl
+Hi! We'll be discussing the movie John Wick!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Hello, sounds great	ADJ ADP ADV	acl acl:relcl advcl
+What can I expect from John Wick	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I've heard really good things but dog killing can be a a bit of a downer	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Firstly, it received great reviews on Rotten Tomatoes! And it's about a former human who returns to the criminal underworld to extract revenge following the death of his wife!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+Are you a fan of Keanu Reeves?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I am a great fan of him and his work, I don't think he's avenging his wife though	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+from what I understand she dies of natural causes and leaves him a puppy so he has a reason to go on, but then some people break into his home and kill the dog	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign
+Critics certainly praised his performance in this film.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+well critical praise is definitely a reason to check out a performance as is a good overall rt score	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+True. It all tales place following the death of his wife after a run in with a Russian crime syndicate.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+what kind of action movie is it	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Very true! It also received a Cinemascore of B as well!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+is it like the marvel movies heavy on the comedy or more like classic action movies	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Its sort of an American neo-noir action flick. One critic described it as  "fired up, ferocious B movie fun we can't get enough of".	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Hi:   The movie dunkirk has a very unique back story.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Hi there! I agree. I haven't seen it, but it looks like it has great reviews and ratings.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Yes, the director really surrounded his audience with chaos and horror.  The 65MM film gave it a real feel.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I'm very surprised that Harry Styles was cast in such a high-profile role given his background as a singer. Since Nolan didn't know about this, I'm happy his opinion wasn't swayed.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv
+Yes, and similarly the lead actor was hired after a secretive auditioning process.  How wonderful it would be to finish months of casting auditions, and win the lead role.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+Very true! Without much dialogue, it really goes to show that the acting was brilliant. It really took the film to the level of art.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet
+Hey have you seen the inception?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+No, I have not but have heard of it. What is it about	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+It's about  extractors that  perform experiments using military technology o n people  to retrieve info about their targets.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Sounds interesting do you know which actors are in  it?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+I haven't watched it either or seen a preview.  Bu5 it's scifi so it might be good. Ugh Leonardo DiCaprio  is the main character	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+He plays as Don Cobb	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Oh okay, yeah I'm not  a big scifi fan but there are a few movies I still enjoy in that genre.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Is it a long movie?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Doesn't say how long it is.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+The Rotten Tomatoes score is  86%	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Wow, that's impressive. I like to look at Rotten Tomatoes when debating whether or not to see a movie. Do you know the director?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Something about Dom Cobb infiltrates peoples dreams in a dream world.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+The director is Christopher nolan	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Heard of him?	ADJ ADP ADV	acl acl:relcl advcl
+Wow I thought this was recent but it came out in 2009.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+He directed The Dark Knight which I enjoy. Yeah, I know it's been out awhile but 2009 does seem to be a while back now. Time flies.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+Do you know if it won any awards?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+or how much it made at the box office?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Oh wow I loved the dark night movies. And it doesn't say if it's won awards or how much at box office.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+A critic did say it could be "weirder"	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+The concept seems interesting and it has a good lead actor as well as director and reviews. I think it must be good. The plot does seem weird, that's for sure.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv
+Tom Hardy is in the movie as the character Earnes. And yeah the plot is a bit strange.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+I might watch this movie now.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I think I may as well. I can't say I've heard of Tom Hardy however. Is there any other supporting actors?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Oh Earnes is a sharp tongue associate of Cobb.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Ellen Page	ADJ ADP	acl acl:relcl
+Oh, cool. I am familiar with her. She's in a number of good movies and is great.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+She plays Ariadne , she is a graduate student that constructs the dreamscapes,  they're like mazes.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Hmm interesting. Do you know if it's an action movie or mostly just scifi?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Says scientific	ADJ ADP	acl acl:relcl
+Certainly seems unique. Do you know if it is based off a book or a previous work?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Something about at the end  he has trouble determining which is reality and which is a dream. It doesn't say it's based off anything.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Sounds like it might be suspense/thriller as well as scifi which is cool. It seems pretty confusing but enticing. Makes me want to see it to try and figure it all out.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed
+Yeah its like its got a bit of mystery too.  Trying to figure out what's real and what's not.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I can't think of any other movie or even book that has a related story either which makes it very interesting. A very original concept.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet
+Yeah well have great day. :)	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Hi, how are you today?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+hello??	ADJ	acl
+Hello,	ADJ	acl
+hi	ADJ	acl
+I was thinking of how I remember what a good movie the original Jaws was.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Do you like action movies?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I do somewhat is jaws an action movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Yes, definitely.  It is a classic, but still very action packed even for today.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I don't  know much about it.. can you refresh me?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+It is about an extremely large great white shark that is way too close to a vacation beach.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+That sounds terrifying!	ADJ ADP ADV	acl acl:relcl advcl
+A marine biologist and the police try to hunt it before it hurts anyone else.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+The first scene is legendary when a woman is dragged under by Jaws.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Well i DON'T KNOW IT BUT SOUNDS ENTERTAINING.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+opps sorry for the caps,lol	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Anyone  famous in it?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+No problem.  Yes, some of it's best scenes are just suspense where you don't even see the shark.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+I feel on edge just thinking about it.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Roy Schneider and Richard Dreyfuss are in it.  The characters seem very real.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Steven Spielberg directed it and it is very well done.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+I really lke Richard Dreyfuss.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Oh wow.	ADJ ADP	acl acl:relcl
+Yes, me too.  He is a very likable actor!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+And very talented.	ADJ ADP ADV	acl acl:relcl advcl
+The mayor of the beach town is kind of the bad guy as he doesn't want to tell the beach goers how dangerous the beach is.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse
+I also  really like Steven Spielberg but who doesn't.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Ah SO THE BAD GUY ..	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Yes, the movie is rated very highly and was kind of revolutionary at the time it was released.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+It may be too gruesome for children though!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+You have peaked my interest for sure.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Oh so not a kids movie.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+What is it rated?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I hope that you check it out.  It is based on a 1974 novel by Peter Benchley.  I'm not sure what it is rated, but probably R.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+I never knew it was based on a novel.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Maybe I will read the book first.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Yes, I may read it also and I'll see the movie again as it is an oldie, but a goodie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Have you read the novel?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+No, but I just might.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Oh now I see you have not yet.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I find books hard to read after watching the movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+No problem.  Me too.  The shark in the movie looks very real.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Is it cgi?	ADJ ADP ADV	acl acl:relcl advcl
+or that wasn't around then..	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I think it was a robotic shark, but am not sure.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Well you have certainly made me want to go watch it and see what all the hype is about.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Great!  You at least will be able to say that you saw a revolutionary classic of that time.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Cool, nice chatting, bye.	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Bye and have fun at the movie!	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+This film has a great rotten tomatoes score	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+What did you think of the cast?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Those scores are often inflated by the studios themselves. I don't always trust RT	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I thought the cast was good.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you watch alot of musicals?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you typically like musicals?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I watch some, but I'm very picky about them	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Not really, I'll watch them on occasion.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I don't like when they sing the dialogue	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Same	ADJ	acl
+What about Dramas?	ADJ ADP ADV	acl acl:relcl advcl
+I'm a movie buff in general	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+What was your favorite scene? I liked the one while they were doing a gig at a restaurant.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+I heard good things about La La Land, but haven't see it IRL yet	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+How were the songs?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Sappy and showtune-like?	ADJ ADP ADV	acl acl:relcl advcl
+He was playing in a1980's pop cover band..	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+not bad though	ADJ ADP ADV	acl acl:relcl advcl
+Sounds like Music & Lyrics	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Do you agree with the rating?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Seemed inflated to me, but I still need to see it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I thought Emma Stone did a fantastic job though	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Jazz Pianist doesn't get me excited	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I like John Legend's music and voice though	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Yeah, one of the critics said Mia's character was a little dull and Sebastian is a jazz snob	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Me too	ADJ ADP	acl acl:relcl
+IMDB ratings usually aren't that high	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I'll have to check it out. Kind of forgot about this one	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Maybe on a date night	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I've never heard of the director Damien Chazelle	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Neither have I, but with scores like that I'll have to check out some other films	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I really liek Ryan Goslings character as well	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I didn't like the scene where Mia left him at the end though, it was sad	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+spoiler alert!!!!	ADJ ADP	acl acl:relcl
+Still worth watching	ADJ ADP ADV	acl acl:relcl advcl
+Do you like superhero movies>	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Love them. Do you like dc or marvel more?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Marvel is my jam! But the avengers are pretty cool. :)	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Are you excited about infinity wars?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Absolutely! If it's anything like the first one, it'll be great. Plus I don't think Joss Whedon can do any wrong lol.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Me either. He did such a good job with avengers. If he had failed their is no way they would be releasing infinity wars in may	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse
+Yep. The only thing I really didn't think would work is having Robert JR be part of a team. He seems to be more of a lone wolf type.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+He is the leader of the pack. I really dont think the averages would be as popular as it is if he wasn't the leader of the team	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated
+This is true too	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Who is your favorite member from the first avengers?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Thor lol. I've always liked the character in the comics so i was really excited to see it played out in a movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+WBU?	ADJ	acl
+Love thor even more now after his third movie. My favorite is captain america. Hes the most interesting character to me	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Which member do you dislike?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Black widow. Her character just didn't pop for some reason	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Same here. I feel as they could've done without her. Do you think she should have her own movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Maybe. It would help build her character up and she wouldn't seem as flat	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+marvel movies dont flop but i feel as if her would flop.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+How do you feel about loki?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I like his character. Thats what i named my dog lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I love that lol. I wish they would make a movie about him	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Is it weird to you that the avengers has such a high critic rating? most critics dont like super hero movies	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+I was just looking at that. I thought that was weird too lol. It's got some pretty big actors in it though so maybe they're fans lol.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+How do you feel about hawkeye?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+hello?	ADJ	acl
+still there?	ADJ ADP	acl acl:relcl
+Hello	ADJ	acl
+Hi.  Bruce Almighty is the movie we will be talking about.  It is a comedy starring Jim Carrey and Morgan Freeman.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Have you seen this movie before?  I have seen this back when it first came out!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I have.  It's very funny. Carrey is hilarious and I love Morgan Freeman.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Yes, Jim Carrey was much more hilarious back in the days.  Morgan Freeman will always be the sound of "God" to me.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Would you rewatch the movie?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Honestly.  I love Freeman's voice.  Jennifer Anniston was also very good.  But I did feel sorry for her character.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Yes, Bruce Almighty is one of my go-to movies.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+The cinemascore for this movie is an A.  I'm not surprised at all to hear that.  All of the actors did a fabulous job.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Yes I feel sorry for her character but her character sounds too much like her Friends days.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+I do not think I would rewatch this movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Yes, I agree that her character was very much a Friends style role. '	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Oh??  Why not?  Do you not like comedies?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Rotten Tomatoes has a rotten score for it, so I think i am swayed by that.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Oh but the CinemaScore is an A.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Comedies seem to be very cliche and there does not seem to be one that I have favored in awhile.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Well I think the actors all did a fabulous job and the three main actors are all very good actors.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Morgan Freeman is a good in all his roles	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+However, I cannot say the same for Jim Carrey as he has had a downward spiral these years	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Totally totally agree!!  Morgan Freeman is the bomb.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+And Jim Carrey has bombed in so many.  But he outdid himself in this movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+It seems like I will have to rewatch it in the end.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I like how he uses his new powers to cause such miraculous events to occur at otherwise mundane events'	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I don't like how he embarrases his other co worker but at the same time the character Evan was such an ass.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Lol, very true.  It sure makes the situation crazier that it should be	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I probably would have done the same if I had been in Bruce's situation. LOL'	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Likewise, I kind of wish I had his powers so I could do the same lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+And of course, God  (Morgan Freeman) steps in to save the day and tells Bruce what he should do.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Seriously!  Did you know it knocked off The Matrix Reloaded from the box office during its first week?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Noooo I didn't know that.  I enjoyed the first Matrix but the other two were trying to hard to be the  hit the first one was.  Saying that I can see why it knocked it out of it's place.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark
+When it all comes down to it, this is one of my favorite movies.  I'm not a big movie fan but this is one I can rewatch many times.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+True that.  Pretty impressive for Jim Carrey's career!  I hope you didn't watch Evan Almighty lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Have you ever seen Inception? If not, you should. It's complicated but very good.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Leonardo DiCaprio and Joseph Gordon Levitt are in it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Have you ever seeLeonardo DiCaprio and Joseph Gordon Levitt are in itn Inception? If not, you should. It's complicated but very good.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+They go into people's minds to steal information.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+yes	ADJ	acl
+Even Ellen Page is in it, and I love her.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+i also love her	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+The people who go into other people's minds are called extractors.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+yes	ADJ	acl
+It has an 86% on Rotten Tomatoes, so that's pretty good.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+yes	ADJ	acl
+The first scene kind of explains how going in someone's mind works.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+In a team, people have to set up "kicks" to wake each other up from sleeping (how they go into a mind, I guess).	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+But some people have defenses in their subconsciousness, and the team gets attacked in one guy's mind.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+If the guy dies will in another person's mind, he may get stuck in an infinite limbo where he forgets he's dreaming.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+You're a very slow typist considering how exciting this movie is.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+If the guy dies will in another person's mind, he may get stuck in an infinite limbo where he forgets he's dreaming	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+That's very true. Do you have any questions?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Do you like scientific movies?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I would love to tell you more about this movie, but you don't seem interested.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Well, I think I'm going to go, then. You should see Inception!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+no	ADJ	acl
+HI!. I want you to check out The Shape of Water by Guillermo del Toro.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Hello, that movie sounds interesting. Could you give a little review?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+It has Rotten Tomatoes 92% rating, and got an A from CinemaScore. It is an American fantasy drama, a love story	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Great, what is the plot?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+The plot is about a mute cleaner who works in a secret government lab, and falls in love with an amphibian being trapped in the lab.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse
+That sounds intriguing, and how that amphibian got the lab?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+The amphibian was captured in the Amazon River, and brought to the lab to study	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+They are trying to study the amphibian so that they can get an edge over the Russians during the arms race.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+They stun and immobilize the creature, and then lock him in the lab for study	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Awesome, fantasy and thrilling argument of the rivalry between U.S. and the Soviets.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Yeah! And don't forget it won a bunch of awards, including best picture.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+The main characters are played by who?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Sally Hawkins plays the mute cleaner,	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Also there is Michael Shannon as the antagonist, Richard Jenkins as Elisa's friend, and Octavia Spencer as her friend also.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+I am not really familiar with Sally Hawkins, however Michael Shannon  and Richard Jenkins are great actors!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+I should take some time to see this movie, definitely.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Yeah I agree! Michael Shannon makes a great enemy, and Richard Jenkins is always a great character actor.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Yes, I always try to check out the movies that win Best Picture. More often than not they are good.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Do you know how we tell when we are done?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Yeah, I have that habit too. And Guillermo del Toro totally deserved that award. His work is always pleasant to watch !	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Yeah, I liked Pan's Labyrinth too	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I try to follow what he is doing and watch most of his films	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Do you know what else we are supposed to do for this HIT? I'm not sure what the next step is	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Surely, Pan's Labyrinth is one of the movies for what he will be remembered.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Yes, he has a way of creating different worlds and interesting creatures.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Do you something else about the Shape of Water? Some fun facts or something?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Yeah, I found it kinda weird to have love scenes between the human and the amphibian! hehe	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+But everything is done pretty artfully etc	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Well, it is kind of funny but it was already done in previous movies such as The Little Mermaid I think, but less visually of course.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse
+The main character uses sign language to talk to the creature.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+You have to realize, that the main character was orphaned and ALSO found in a river,  with wounds on her neck.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+That makes perfect sense, since Hally is acting as a mute. That would imply that this creature is quite smart too.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+What were the shape of those neck  marks?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Yes, it is definitely implied. There is a lot of symbolism and allegory in the film.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+They are like slashes from a knife..., kinda mirroring the gills of the amphibian creature.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+That is highly curious, could you describe some film scenes?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Sure. Elisa (main character ) keeps the creature in her bathtub, with salts. He cannot survive that long out of water.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Hello	ADJ	acl
+Hi! Have you seen the Blindside with Sandra Bullock?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+No I havent, have you?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Yes. Are you a sports fan?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Yes, are you?	ADJ ADP ADV	acl acl:relcl advcl
+I was raised in a sports family and I am a movie fan. This is based on a true story.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+What is the true story?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+It the story of Michael Oher who in high school was adopted by a white family and with their support went to college on a football scholarship and was drafted by the Ravens in the pros.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith
+Oh wait I think I've heard about this	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I think I know the football player it was based on	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Was it good?	ADJ ADP ADV	acl acl:relcl advcl
+It is a "feel good" movie that has a sports angle. Yes, a lot like "Hoosiers". I took my sons to see it. It really is a family movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+I've never seen Hoosiers, would you say Blind Side is one of the best sports movies ever?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Michael was in foster care due to his mother's drug addiction. He ran away from foster homes. A coach of a private school recruits him into high school but he seems so far behind academically it seems impossible for him to graduate. It is a great sports movie!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer
+Why did he run away from the foster homes? abuse?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+It is also one that shows the bond of the adoptive mother and the ability for an underprivileged kid to overcome adversity.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Is it also a story about racial harmony?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I think he overheard from the foster parents that he was not welcome in their home.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Because he was black?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+He was that and also very difficult to communicate with.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Why was he hard to speak with?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I think he was withdrawn from living in the projects and have a drug addicted mother. He was taken in by the white family when they realized he was hanging out in the gym. Her friends thought she was crazy to take him in.   The hired a tutor to help him get through high school.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer nsubj:pass nummod obj obl obl:agent obl:arg obl:patient
+What motivated the foster mom to take him in? Did she a black ex lover?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+I think she just felt that they were wealthy enough to help a deserving kid. He test high in protective instincts so she told him his job was to protect the quarterback. From then on he became good enough to be recruited for college teams.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod
+That's nice of her, did he pay her back eventually?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+I think it also really bothered her that their family took so many privileges for granted.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+What was wrong with her own family?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+They were very successful and had a lot of money. Micheal just never had the opportunities. After becoming a member of the family he  tried to go  back to visit his mother but realized she had been evicted. He told the NCAA he chose to go to Ol' Miss because that is where his family goes.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer nsubj:pass nummod obj obl obl:agent obl:arg obl:patient obl:unmarked
+Did the mom eventually get better?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+The birth mother doesn't show up in the movie. Micheal does go off to college.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Hi. How is it going?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Good.  How are you?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I'm reading about Batman Begins. It is a very good movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I enjoyed it also. Do you know who played Alfred in that one?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Micheal Caine	ADJ ADP	acl acl:relcl
+He did a really good job.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I enjoyed Morgan Freeman also but he is amazing in all of his work.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+That's right.  I thought he was great.  He is the best Alfred.  I agree about Morgan Freeman as well.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+The critics thought that the movie explored Batman's damaged psyche.  What do you think?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I have to say so. The insight they provide about how he became Batman was eye opening. It was really sad to see him lose his parents like that.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+Stuff like that really makes a person question their purpose in life.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I agree.  I can see why it led to Batman pursuing a life of crime fighting.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Can you see page 2?  My page is blank.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Mine is blank also	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Okay so I wonder what we're supposed to exchange messages about?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Lol not quite sure..	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+What did you think about Katie Holmes performance?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I think she was an appropriate love interest, but her acting was just okay.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I agree. It seems like she holds back on her emotions. Very dull	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+My second paragraph just came up	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+mine also	ADJ ADP	acl acl:relcl
+I didn't remember the part about the swarm of bats.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Oh yeah, he fell in the well and a ton of bats were swarming him. He was initially afraid of t hem.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+The scene when they blow the powder in his face and he starts seeing things... that was pretty wicked.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I believe the fear of bats  is what led him to leave the opera where his parents were murdered.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Oh really? I did not see that part. I remembered he was scared but forgot what the play  was about.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+The powder scene was very scary.  I cannot believe they had an antidote.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I forgot how long the movie was there were a lot of scenes and changes of events.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Alfred is such a hero in the movie, constantly saving Bruce	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I cannot believe his mansion burnt down in flames	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Love Alfred, he is the backbone	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I know the fire scene was horrible.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It was really sad because it was his parents' house right?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I think so.  The bad guys work so harder at being bad.  The effort could be used for something good with a lot more success.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet
+What do you think of the character of Sgt. Gordon?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+exactly but some would rather be evil for their own personal gain than to help others	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I like him also but I felt bad for him. He seems to be dismissed often as a key player in Batman	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+I agree.  He was one of the few honest people in it for the right reasons.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Didn't they try to cut off Gotham from the surrounding cities by raising the draw bridge?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I think so.  Do you think we are done?  Have we submitted enough turns?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I am not sure.. it seems like it has been awhile but it isnt cutting off	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I counted 18 turns on my side and you have at least that many.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Let's give it one more exchange.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+okay sounds good	ADJ ADP ADV	acl acl:relcl advcl
+I think it is very sad that Bruce thought about killing Chill.  That would have made him "dark" also.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I know.. but I'm glad he prevailed	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Yes.  I agree.	ADJ ADP ADV	acl acl:relcl advcl
+I'm going to push finish conversation now.  Have a good afternoon.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+you too! nice talking to you!	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Hi. How is it going?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Good.  How are you?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I'm reading about Batman Begins. It is a very good movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I enjoyed it also. Do you know who played Alfred in that one?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Micheal Caine	ADJ ADP	acl acl:relcl
+He did a really good job.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I enjoyed Morgan Freeman also but he is amazing in all of his work.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+That's right.  I thought he was great.  He is the best Alfred.  I agree about Morgan Freeman as well.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+The critics thought that the movie explored Batman's damaged psyche.  What do you think?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I have to say so. The insight they provide about how he became Batman was eye opening. It was really sad to see him lose his parents like that.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+Stuff like that really makes a person question their purpose in life.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I agree.  I can see why it led to Batman pursuing a life of crime fighting.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Can you see page 2?  My page is blank.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Mine is blank also	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Okay so I wonder what we're supposed to exchange messages about?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Lol not quite sure..	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+What did you think about Katie Holmes performance?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I think she was an appropriate love interest, but her acting was just okay.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I agree. It seems like she holds back on her emotions. Very dull	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+My second paragraph just came up	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+mine also	ADJ ADP	acl acl:relcl
+I didn't remember the part about the swarm of bats.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Oh yeah, he fell in the well and a ton of bats were swarming him. He was initially afraid of t hem.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+The scene when they blow the powder in his face and he starts seeing things... that was pretty wicked.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I believe the fear of bats  is what led him to leave the opera where his parents were murdered.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Oh really? I did not see that part. I remembered he was scared but forgot what the play  was about.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+The powder scene was very scary.  I cannot believe they had an antidote.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I forgot how long the movie was there were a lot of scenes and changes of events.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Alfred is such a hero in the movie, constantly saving Bruce	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I cannot believe his mansion burnt down in flames	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Love Alfred, he is the backbone	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I know the fire scene was horrible.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It was really sad because it was his parents' house right?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I think so.  The bad guys work so harder at being bad.  The effort could be used for something good with a lot more success.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet
+What do you think of the character of Sgt. Gordon?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+exactly but some would rather be evil for their own personal gain than to help others	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I like him also but I felt bad for him. He seems to be dismissed often as a key player in Batman	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+I agree.  He was one of the few honest people in it for the right reasons.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Didn't they try to cut off Gotham from the surrounding cities by raising the draw bridge?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I think so.  Do you think we are done?  Have we submitted enough turns?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I am not sure.. it seems like it has been awhile but it isnt cutting off	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I counted 18 turns on my side and you have at least that many.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Let's give it one more exchange.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+okay sounds good	ADJ ADP ADV	acl acl:relcl advcl
+I think it is very sad that Bruce thought about killing Chill.  That would have made him "dark" also.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I know.. but I'm glad he prevailed	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Yes.  I agree.	ADJ ADP ADV	acl acl:relcl advcl
+I'm going to push finish conversation now.  Have a good afternoon.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+you too! nice talking to you!	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you like superhero movies>	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Love them. Do you like dc or marvel more?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Marvel is my jam! But the avengers are pretty cool. :)	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Are you excited about infinity wars?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Absolutely! If it's anything like the first one, it'll be great. Plus I don't think Joss Whedon can do any wrong lol.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Me either. He did such a good job with avengers. If he had failed their is no way they would be releasing infinity wars in may	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse
+Yep. The only thing I really didn't think would work is having Robert JR be part of a team. He seems to be more of a lone wolf type.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+He is the leader of the pack. I really dont think the averages would be as popular as it is if he wasn't the leader of the team	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated
+This is true too	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Who is your favorite member from the first avengers?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Thor lol. I've always liked the character in the comics so i was really excited to see it played out in a movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+WBU?	ADJ	acl
+Love thor even more now after his third movie. My favorite is captain america. Hes the most interesting character to me	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Which member do you dislike?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Black widow. Her character just didn't pop for some reason	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Same here. I feel as they could've done without her. Do you think she should have her own movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Maybe. It would help build her character up and she wouldn't seem as flat	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+marvel movies dont flop but i feel as if her would flop.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+How do you feel about loki?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I like his character. Thats what i named my dog lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I love that lol. I wish they would make a movie about him	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Is it weird to you that the avengers has such a high critic rating? most critics dont like super hero movies	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+I was just looking at that. I thought that was weird too lol. It's got some pretty big actors in it though so maybe they're fans lol.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+How do you feel about hawkeye?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+hello?	ADJ	acl
+still there?	ADJ ADP	acl acl:relcl
+Hello. So, this movie has a pretty good Rotten Tomatoes score!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+It does.  Its a great dramatic film.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Guillermo del Toro generally directs good movies. Don't you think?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+This is the only movie I have seen of his, but it was definitely an unusual love story	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Sally Hawkins said so much without saying anything at all.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+She did an amazing job portraying a mute cleaner in this film, but the love story was so sad as well.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Yes, a love that is basically forbidden. That makes for a drama if I ever did see one!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+No doubt!  I felt bad for the poor amphibian living in a government laboratory however.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Yeah, that is something I felt horrible about as well. It reminded me of animals in a cage.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+At least this zoo animal had someone who loved it.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Elisa's childhood was definitely sad don't you think?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Yes, very much so. I can't even imagine having all of that abuse done to me.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+It seems like such a lonely life.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+And this was in the old days - where her in the closet neighbor had to hide his true identity	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Yeah. The stress that they must have endured is insane. I think all of the actors and actresses did a fantastic job of having the audience and viewers feel what was going on.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat
+Yes.  The movie was extremely well directed and Sally Hawkins did a great job in her role.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Imagine being in that position and keeping the creature in the bathtub.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+The part where she was going to release the creature is pretty crazy	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Yeah, that really kept me at the edge of my seat.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+It was interesting how the creature had mysterious healing powers	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Yeah, it is so cool because I felt as though that the movie had a balance of drama and fantasy.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Right.  The romantic part in the bathtub was a bit different however.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Uh, yeah. I was a bit weirded out by that. I kind of kept thinking that she was going to die!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+The ending was a bit crazy however.  You knew there would be a shootout but after that...	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Yes, I was almost in tears by the end. Did it affect you like that too?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Yes it was sad but happy at the same time.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+I agree. That's the type that gets to me the most. Lol. It tugs on all of your emotions at the same time,	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+Yes it does.  This could almost qualify as a "chick flick" but it had a bit too much action.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I agree. All of the rough parts kept bringing me back from my trip of sadness. Haha!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Yes.  It was definitely an amazing movie overall.  Well worth seeing!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Yes. I'll definitely be watching it again at some point. There was a lot to absorb.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Yes it is definitely a movie you could watch multiple times..	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+hi	ADJ	acl
+hI... WE ARE TALKING ABOUT ZOOTOPIA	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+HAVE YOU SEEN IT?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+yes, i have	ADJ ADP ADV	acl acl:relcl advcl
+have you	ADJ ADP	acl acl:relcl
+IT IS A COMEDY	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+NOPE	ADJ	acl
+MAYBE YOU SHOULD BE TELLING ME ABOUT IT...LOL	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Are the ratings good?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+i know :)	ADJ ADP ADV	acl acl:relcl advcl
+YES THE RATINGS ARE DECENT	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+when did it come out?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+i LIKE JASON BATEMAN IN COMEDIES, SO THIS SHOULD BE GOOD	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+2016	ADJ	acl
+I ALSO LIKE GINNEFER GOODWIN	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Do you think the movie plotis interesting?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+plot is*	ADJ ADP	acl acl:relcl
+IT SOUNDS GOOD	ADJ ADP ADV	acl acl:relcl advcl
+What do critics say about it ?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I AM LOOKING, BUT I DON'T SEE ANYTING	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+OH THERE IT IS	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+FUNNY SMART AND THOUGHT PROVOKING	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+VERY FUNNY AND A VERY LIKABLE HOLIDAY TREAT	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+LOOK PAST SPECIES STEREOTYPES	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+So most of the critics agree it's a good movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+SEEMS SO	ADJ ADP	acl acl:relcl
+FAST AND FUNNY ENOUGH TO KEEP YOUNGER PEOPLE ENTERTAINED	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+who are the main characters?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+i know i've watched it but still need to ask those questions :)	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+WELL, THE DOCUMENT THAT I AM LOOKING AT JUST BLANKED OUT ON ME	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I WISH I COULD TELL YOU	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+oh no :( well, i can	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+HAHA	ADJ	acl
+OK	ADJ	acl
+it's a bunny and a wolf, if i remember correctly	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+ANYWAY, I THINK THAT IT WOULD BE FUN TO SEE, ESPECIALLY YOUNG NIECES	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Hi there	ADJ ADP	acl acl:relcl
+Are you there?	ADJ ADP ADV	acl acl:relcl advcl
+???	ADJ	acl
+Hello, I'm here, my internet was just a little slow for a bit, sorry about that!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+hey, what was your fav scene of the movie	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+yes	ADJ	acl
+Hello, I have just seen the film. It is hilarious don't you think? Jim Carrey is very funny.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Hello	ADJ	acl
+Hi.  Bruce Almighty is the movie we will be talking about.  It is a comedy starring Jim Carrey and Morgan Freeman.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Have you seen this movie before?  I have seen this back when it first came out!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I have.  It's very funny. Carrey is hilarious and I love Morgan Freeman.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Yes, Jim Carrey was much more hilarious back in the days.  Morgan Freeman will always be the sound of "God" to me.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Would you rewatch the movie?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Honestly.  I love Freeman's voice.  Jennifer Anniston was also very good.  But I did feel sorry for her character.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Yes, Bruce Almighty is one of my go-to movies.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+The cinemascore for this movie is an A.  I'm not surprised at all to hear that.  All of the actors did a fabulous job.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Yes I feel sorry for her character but her character sounds too much like her Friends days.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+I do not think I would rewatch this movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Yes, I agree that her character was very much a Friends style role. '	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+Oh??  Why not?  Do you not like comedies?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Rotten Tomatoes has a rotten score for it, so I think i am swayed by that.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Oh but the CinemaScore is an A.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Comedies seem to be very cliche and there does not seem to be one that I have favored in awhile.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Well I think the actors all did a fabulous job and the three main actors are all very good actors.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+Morgan Freeman is a good in all his roles	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+However, I cannot say the same for Jim Carrey as he has had a downward spiral these years	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Totally totally agree!!  Morgan Freeman is the bomb.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+And Jim Carrey has bombed in so many.  But he outdid himself in this movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+It seems like I will have to rewatch it in the end.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I like how he uses his new powers to cause such miraculous events to occur at otherwise mundane events'	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+I don't like how he embarrases his other co worker but at the same time the character Evan was such an ass.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Lol, very true.  It sure makes the situation crazier that it should be	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I probably would have done the same if I had been in Bruce's situation. LOL'	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Likewise, I kind of wish I had his powers so I could do the same lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+And of course, God  (Morgan Freeman) steps in to save the day and tells Bruce what he should do.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Seriously!  Did you know it knocked off The Matrix Reloaded from the box office during its first week?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Noooo I didn't know that.  I enjoyed the first Matrix but the other two were trying to hard to be the  hit the first one was.  Saying that I can see why it knocked it out of it's place.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark
+When it all comes down to it, this is one of my favorite movies.  I'm not a big movie fan but this is one I can rewatch many times.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+True that.  Pretty impressive for Jim Carrey's career!  I hope you didn't watch Evan Almighty lol	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I have a really great action thriller reccomendation for you	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Hi there!	ADJ ADP	acl acl:relcl
+its called inception, hear of it?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Thriller? I thought it was a horror movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Nope. Inception is about a group of people called "extractos"	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+extractors*	ADJ	acl
+Oh....ok. Thank you for clarifying.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+they dive into peoples dreams to gather info from the dream world	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Did it just come out?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+no its from 2009	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+it has di caprio in it it as well	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Got it.	ADJ ADP	acl acl:relcl
+I not a big DiCaprio fan.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+me neither but normally he is only in rather good movies	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+On a scale 1 to 5...how would you rate this movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+5	ADJ	acl
+is there anything further you want to know to make a decision	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Who stars opposite of DiCaprio?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I dont know it does not state it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Is it rated "R"? or PG-13?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+but it got 86 % from rotten tomatoes	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I dont know that either sorrt	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+its got shooting and sex	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Probably R then.	ADJ ADP ADV	acl acl:relcl advcl
+it is a mind boggler	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I might have to check it out. I love thrillers.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Anything else I should know to make a decision?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+no the movie is really great. The less you know the better	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+done?	ADJ	acl
+I think we both need to have 12 lines of covo	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Ok...done.	ADJ	acl
+so 24 lines total?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I am not able to scroll back up to review though.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I have 15	ADJ ADP ADV	acl acl:relcl advcl
+You have over 15.	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+yeah idk then	ADJ ADP ADV	acl acl:relcl advcl
+The "finish conversation" is grayed out.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+This movie looks really interesting I like Tom Hanks a lot	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+He IS a great and highly skilled actor.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+for sure, I think the score on this movie looks really good on Rotten Tomatoes	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+88% is a good score. I think I too, would rate this movie average.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+yeah this typically isn't in my genre but nevertheless seems to be a good movie	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+So this movie takes place during or after the Vietnamese war?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+after I believe	ADJ ADP ADV	acl acl:relcl advcl
+its funny its about a newspaper and nobody even reads those anymore	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Exactly. Tom Hanks plays as one of those who works for The Post too.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+yeah and Meryl Streep as well I believe	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Any movie directed by Steven Spielberg is bound to have the viewer's attention	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Yes and really the critics seemed to enjoy it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+In what year did Daniel Ellsberg accompany the US troops in the movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+I think 1966	ADJ ADP ADV	acl acl:relcl advcl
+would you agree?	ADJ ADP ADV	acl acl:relcl advcl
+I would too agree.	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+What corporation was he working for?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Daniel Ellsberg ended up working for RAND.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Is my memory correct?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+yes that is correct from what I can see	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+pretty gutsy move these guys actually pulled	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+with classified government documents	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+And he tracked down by the post assistant editor too.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+yes I actually think this movie makes me want to see more true story type films	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I would not be surprised at all if this was a hidden real story that the government did not want to get out	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+that's what it seems like that it was a 30 year old document that they didn't want people to know about	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+do you enjoy this genre of movie?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I do. I enjoy movies that involve exploiting of governments and white house involvements.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+same here it makes it more interesting knowing it actually happened to	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+and in the movie, the court rules the newspaper 6-3, that must of been a shocker	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+yeah I am sure the government was shocked	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Even if I was right, I don't think i could conspire  against the US government	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+no absolutely not I don't think its right to undermine the government	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+who was president at the time I wonder?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+The president during that time was Nixon	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+ok cool	ADJ ADP	acl acl:relcl
+Nixon actually demanded that the Post be barred from the White House.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Hi! The movie I want to talk to you about today is Steven Spielberg's JAWS. It has a 97% review on Rotten Tomatoes and has a 8/10 IMDB rating!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+Yes, that was worth a one time watch back in the 70's!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+So do you agree with the ratings of the movie? Many people find it to be a scary thriller, but others describe it as being too gruesome. What do you think? Do you like this kind of movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list
+I found it to be to gruesome and didn't agree with the rating.  But then, I don't like violent movies.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+I hear ya. But, maybe you should give it another try! It's a classic movie full of action and suspense. Steven Spielberg never disappoints. Do you typically like Steven Spielberg movies?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv
+I'm not sure as to whether I'd like to give it another try or not,  but then again I liked ET.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer
+Well, like one person put it, it's funny in a Woody Allen sort of way. Since it's a classic, it might not be exactly as you remember. Might be worth the watch even if just for the laughs!	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list
+Perhaps the humor is subtle.  I recall not really seeing to much humor in it though,	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Well, I suppose the film works for both types of people. Some love it because of its action and because it's a scary thriller, while others find it to be more humorous and funny.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign
+That's true, and it probably also has a lot to do with the types of humor people like, or don't care for.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Yeah, that's true. But, of course, most watch it for the thrill. For example, there is a scene in the movie where a woman named Chrissie Watkins goes skinny dipping in the ocean. While she's in the water, she's suddenly pulled under! It's unexpected and thrilling, one of the reasons why I enjoy this movie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer nsubj:pass nummod obj obl obl:agent obl:arg obl:patient
+I honestly don't know what else to say...... This has been going on way too long and is honestly silly. I'm going to return the HIT. Hopefully you can abort the conversation and still get paid. This is terrible	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark
+Ok, let's get this done.  Nice chatting with you either way!  :-)	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+What is the movie about?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+the movie is about a young child named Kevin who was abandoned by his family when they went for their Christmas vacation	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Did they abandon him on purpose?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+no they had lost track of him since they had multiple family's over for christmas	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Did they realize they lost track of him and come back for him?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Kevin's mother realizes that he is lost once they arrive at their destination and she trys to get on a flight back home but there are none available so she drives back with strangers	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign
+Was he left at home or while they were traveling?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+he was left at home	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+How old is Kevin?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+kevin is a young child no exact age is given estimates are he is around 10	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Oh, ok. Is he able to fend for himself at all?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+kevin is left home because a power outage caused the family to oversleep and be late for their flight so in the confusion they misplaced kevin as he was sent to the attic for misbehaving the night before	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list
+So, he is not able to fend for himself?  Is he afraid?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+he enjoys being alone but he is met with two burglers who he has to try and strop	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+he is not afriad but more excited	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+How does he stop the burglars?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Is it a drama or more of a comedy?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+the movie is a good mix of both but i would say it is more of a drama that has a good laugh once in a while	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+What is  the name  of the movie?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+the movie is named home alone	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Ok. Does Kevin have any siblings?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+he has a brother named Buzz who Kevin is not a fan of since he was sent to the third floor after an altercation with Buzz the night before they left for paris	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat
+Does Buzz feel bad that Kevin was left behind?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+no he doesnt care	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Does Kevins Mom get to him before the burglars do?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+no Kevin has to fend off the burgers himself he places booby traps all around the house which turn out to be very effective	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Do the burglars realize they are being  fooled by a kid that is  home alaonee?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+Do they give up or  keep trying  to rob the house?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+the robbers came on Christmas eve and were detained by police after going through kelvins house and getting hit by all his traps they realize he is alone but there already in the house and are commited	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj
+Do  they ever see Kevin when they are  in his house?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+yes	ADJ	acl
+Do the police ever figure out that Kevin is home alone?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+it is never specified	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+ok, thank you.	ADJ ADP ADV	acl acl:relcl advcl
+Hi!	ADJ	acl
+What is the movie about?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Just a moment. I have to read the document.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Okay :D	ADJ ADP	acl acl:relcl
+The movie is a musical, has a 89% Rotten Tomatoes rating, and stars Idina Menzel. She was made famous for the musical Wicked.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+Do you like musicals?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I think it depends on the topic	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+What is the topic of this one?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It's a fairy tale, based on Hans Christian Andersen's "The Snow Queen." The main characters have to find a way to release the world from the icy grip of winter.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass
+It's animated.	ADJ ADP	acl acl:relcl
+That sounds a little like Frozen	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Is it?	ADJ ADP	acl acl:relcl
+It is! You've heard of it, then? It sounds to me like it's worth seeing.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+I have indeed	ADJ ADP ADV	acl acl:relcl advcl
+You haven't seen it?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I have. I loved it.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Same	ADJ	acl
+What was your favorite part?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hmmm... I'm supposed to be convincing you to see it. I can't talk about anything not on the document.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Let me tell you about it. It's bringing up key scenes.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Oh, okay, I am all ears	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+:)	ADJ	acl
+In the beginning, we find that Princess Elsa has magical powers. She accidentally hurts her sister with them, though.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Oh no, that is awful	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+The king and queen take the younger sister to be healed, and the being that heals her also changes her memory so that she doesn't remember her older sister has magical abilities.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed
+This is a good beginning	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Elsa eventually becomes queen, but she's terrified that people will find out about her powers and be afraid of her. They have a castle party, and the younger sister--Anna--falls in love with a visiting dignitary, who proposes to her. Elsa says, "No" and loses control of her powers in front of everyone.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer nsubj:pass nummod obj obl
+Oh no D:	ADJ ADP ADV	acl acl:relcl advcl
+The Duke, the guy Anna fell for, brands her a monster. Elsa runs away, but the kingdom is left in an eternal winter, due to her magic.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+I love Winter but this is not good	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Poor Elsa	ADJ ADP	acl acl:relcl
+Anna goes to find Elsa and meets some new friends along  the way. When they find and confront Elsa, she accidentally injures Anna again.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+This definitely is not good :(	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+One of her new friends takes her back to the same being who healed her before. He says that an act of true love is the only thing that can save her now. I won't spoil the ending.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list
+Hello	ADJ	acl
+How are you today?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Hey	ADJ	acl
+Hey, how are you doing?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hey, how are you doing?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hey, how are you doing?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hey, how are you doing?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hey, how are you doing?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hey, how are you doing?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I am good. Thank you.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hey	ADJ	acl
+There is this great movie I want to tell you about called Toy Story	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+It was made in 1995 and was one of the first full length  computer animated films.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+The voice actors in the movies are very famous stars such as Tom Hanks, Tim Allen, and Don Rickles.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+So have you seen Zootopia?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Yes, I have. The movie was hilarious! Who was your favorite character?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I'm not good with character names, but the fox played by jason bateman	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+Nick Wilde \	ADJ ADP ADV	acl acl:relcl advcl
+Who was yours?	ADJ ADP ADV	acl acl:relcl advcl
+Oh okay, my favorite character was Judy Hopps. My favorite scene of the movie was when she got initially put as a parking duty cop.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet
+I like the movie because it was something that both me and my children enjoyed.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+I actually watched it at a friends house because her 2 year old had it on repeat	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Oh, how funny. Do you think that the IMDB rating is appropriate?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+I do. 8/10 seems right. The Rotten Tomatoes review seems high, but it's impressive	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I agree, Rotten Tomatoes usually has horrible ratings so it is a bit surprising. I like the main theme that people can't be judged based on their color (well in this case species).	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat
+What Holiday was this released around?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you think Judy recording Nick was an ethical decision?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+I don't recall the holiday. I do think that it was ethical because he was a wanted suspect so she was just doing her job.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet
+I think the ending made up for her recording, because she realized that Nick's past being bullied had a huge effect on him.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+I also thought it was super unfair of Bogo to request her resignation so quickly. She was still new to the force.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+I agree with that, it was unfair. However, she got tricked by Nick on her first day I honestly don't think she was qualified for the position.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+She was a bit naive, but she also shouldn't have been out alone as a rookie.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I loved Bellwethers character, I know she's a bad guy, but Jenny Slate does such a good job	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+I have to agree with you on that. I don't see her as much of a bad guy, since she offered Nick and Judy access to the security cameras.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+In the end when Judy asked Nick to join the Zootopia police department, do you think that was a good call on her part?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+Probably not, just because he ended up liking her doesn't mean he had completely turned himself around	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Yeah, the movie didn't show Nick developing enough for him to be trusted with that kind of authority. Plus I am guessing that his criminal background wouldn't go well.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl
+It was sweet when Nick stuck up for Judy when BOGO tried to demand her to quit	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+I agree, he definitely showed some development there, possibly just gratitude.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Did you think that the use of drugs in the movie was a bit too much? (the creation of drugs I should say)/	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+I think it was innocent enough. Probably too complicated of a plot line to really do any harm to kids.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj
+They could get the jist of it, that bellwether made the wolves do bad things, but beyond that, they probably didn't relate it to drugs as we think of them	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass
+I know what you mean.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+My young cousin asked me what they were and why he was making them what they do to people, etc. So it might not influence most children but definitely some.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass
+Hello, what movie are we talking about?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+The Wolf of Wallstreet	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I'm not really familiar with it?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Who are the actors in the movie?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I watched it.  It was very interesting.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Leonardo DiCaprio	ADJ ADP	acl acl:relcl
+He is also the producer.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Did he win any awards for it?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It does not say on the document.  I personally do not know.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Is there illegal trading that goes on?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+yes	ADJ	acl
+He must be a young stockbroker in the movie?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Yes	ADJ	acl
+This was based on the true story and character.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+What was the characters name?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Wait, the letters are very small on the document.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Jordan belffort	ADJ ADP	acl acl:relcl
+I think I remember seeing the trailer and I think Michael Douglas is also in the movie	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt
+Wasn't it directed by Oliver Stone?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+No he was not	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+No, Sarcosse	ADJ ADP	acl acl:relcl
+Is it suspenseful?  I may consider watching it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Would you recommend it?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I would but make sure kids are not around.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+if you are religious, you would not want to watch it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Ok thanks for the information	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+No I'm not religious so I guess I'm ok	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Does it say how long the movie is?  I have no information about it on my screen at all	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+it does not say	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+It says in the turk hit that we will both have the paragraph available to read and I don't so....whatever I guess	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass
+Is there anything else you can tell me about it?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+So, even though I watched the movie, I could only influence you based on the document.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+Can you type some of the information in the document?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Jordan was a stock broker for Rotschild.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+He deceived customers.	ADJ ADP ADV	acl acl:relcl advcl
+He pushed penny stocks that he knew were not good	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Ok thanks, sounds interesting	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+nice chatting	ADJ ADP	acl acl:relcl
+thanks	ADJ	acl
+Hi!	ADJ	acl
+What is the movie about?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Just a moment. I have to read the document.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Okay :D	ADJ ADP	acl acl:relcl
+The movie is a musical, has a 89% Rotten Tomatoes rating, and stars Idina Menzel. She was made famous for the musical Wicked.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep
+Do you like musicals?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I think it depends on the topic	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+What is the topic of this one?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It's a fairy tale, based on Hans Christian Andersen's "The Snow Queen." The main characters have to find a way to release the world from the icy grip of winter.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass
+It's animated.	ADJ ADP	acl acl:relcl
+That sounds a little like Frozen	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Is it?	ADJ ADP	acl acl:relcl
+It is! You've heard of it, then? It sounds to me like it's worth seeing.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+I have indeed	ADJ ADP ADV	acl acl:relcl advcl
+You haven't seen it?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+I have. I loved it.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Same	ADJ	acl
+What was your favorite part?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Hmmm... I'm supposed to be convincing you to see it. I can't talk about anything not on the document.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Let me tell you about it. It's bringing up key scenes.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Oh, okay, I am all ears	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+:)	ADJ	acl
+In the beginning, we find that Princess Elsa has magical powers. She accidentally hurts her sister with them, though.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop
+Oh no, that is awful	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+The king and queen take the younger sister to be healed, and the being that heals her also changes her memory so that she doesn't remember her older sister has magical abilities.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed
+This is a good beginning	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Elsa eventually becomes queen, but she's terrified that people will find out about her powers and be afraid of her. They have a castle party, and the younger sister--Anna--falls in love with a visiting dignitary, who proposes to her. Elsa says, "No" and loses control of her powers in front of everyone.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list mark mark:adv mark:rel nmod nmod:desc nmod:poss nmod:tmod nmod:unmarked nsubj nsubj:outer nsubj:pass nummod obj obl
+Oh no D:	ADJ ADP ADV	acl acl:relcl advcl
+The Duke, the guy Anna fell for, brands her a monster. Elsa runs away, but the kingdom is left in an eternal winter, due to her magic.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp
+I love Winter but this is not good	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Poor Elsa	ADJ ADP	acl acl:relcl
+Anna goes to find Elsa and meets some new friends along  the way. When they find and confront Elsa, she accidentally injures Anna again.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det
+This definitely is not good :(	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+One of her new friends takes her back to the same being who healed her before. He says that an act of true love is the only thing that can save her now. I won't spoil the ending.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj cop csubj csubj:outer csubj:pass dep det det:predet discourse discourse:sp dislocated expl expl:pass expl:pv fixed flat flat:foreign flat:name goeswith iobj list
+This film has a great rotten tomatoes score	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+What did you think of the cast?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Those scores are often inflated by the studios themselves. I don't always trust RT	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+I thought the cast was good.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you watch alot of musicals?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you typically like musicals?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I watch some, but I'm very picky about them	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Not really, I'll watch them on occasion.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I don't like when they sing the dialogue	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Same	ADJ	acl
+What about Dramas?	ADJ ADP ADV	acl acl:relcl advcl
+I'm a movie buff in general	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+What was your favorite scene? I liked the one while they were doing a gig at a restaurant.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+I heard good things about La La Land, but haven't see it IRL yet	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+How were the songs?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Sappy and showtune-like?	ADJ ADP ADV	acl acl:relcl advcl
+He was playing in a1980's pop cover band..	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+not bad though	ADJ ADP ADV	acl acl:relcl advcl
+Sounds like Music & Lyrics	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Do you agree with the rating?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Seemed inflated to me, but I still need to see it	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+I thought Emma Stone did a fantastic job though	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Jazz Pianist doesn't get me excited	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I like John Legend's music and voice though	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Yeah, one of the critics said Mia's character was a little dull and Sebastian is a jazz snob	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Me too	ADJ ADP	acl acl:relcl
+IMDB ratings usually aren't that high	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+I'll have to check it out. Kind of forgot about this one	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Maybe on a date night	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I've never heard of the director Damien Chazelle	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Neither have I, but with scores like that I'll have to check out some other films	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+I really liek Ryan Goslings character as well	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+I didn't like the scene where Mia left him at the end though, it was sad	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+spoiler alert!!!!	ADJ ADP	acl acl:relcl
+Still worth watching	ADJ ADP ADV	acl acl:relcl advcl
+What is the movie?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Hi.  Have you see Toy Story?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+No I haven't. What's it about?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Tom Hanks was pretty funny.	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+It is a buddy film	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Tom Hanks is a great actor.	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+A comedy animation adventure	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Hanks is awesome	ADJ ADP ADV	acl acl:relcl advcl
+What is the movie about ?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+It is mostly in a kids bedroom.	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+The tpys are animated when no one is around	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+toys	ADJ	acl
+Ok, toys in a kids bedroom that are animated. Sounds interesting.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+O had my doubts about it at first, but the film really holds up	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf
+What else should I know about the movie	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Hanks plays the toy cowboy	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+He is the kids f arvorite	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Do you know the cowboy's name?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Woody	ADJ	acl
+He has a girlfriend cowgirl not sure what her nam eis	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+How many toys does the kid have?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Lots of other toys interact and keep the soty interesting	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+story	ADJ	acl
+I seem to recall some 6 or 8 toys	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+What are some of the other kinds of toys?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Pretty much what you would find in a kids room	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+A Mr pototo head is Don Rickles	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Jim Varney is a slinky dog	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+WLLce Shawn is a toy T-rex	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+wallace\	ADJ	acl
+Tim Allen is Buzz Lightyear a spaceman	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+you want me to keep looking?	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+Yes	ADJ	acl
+There is a piggy bank	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+A Bo Peep	ADJ ADP ADV	acl acl:relcl advcl
+Green army man	ADJ ADP ADV	acl acl:relcl advcl
+Oh I found Woddy's GF She is called Sally	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Is there a toy horse?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+Woody has a horse	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Not sure what the name is though	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Sounds like an interesting movie	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+The fun thing I found in the film was all the personal interactions between the toys	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext
+like real people, just stuipd ones, trying to solve an important problem.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Funny actors would make it good	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+ya comedians made the film good	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+How long is the film?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+about 90 min	ADJ ADP ADV	acl acl:relcl advcl
+HI, tell me a bit about the movie please?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Hello, the movie is called the wolf of wall street	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+have you heard of it	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+I haven't	ADJ ADP	acl acl:relcl
+Is it good?	ADJ ADP ADV	acl acl:relcl advcl
+The movie is an American Black comedy based of a memoir of the same name	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
+It recounts Belforts perspective as stockbroker in New York City	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Oh ok. Talks about his experience as a stockbrocker?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+broker	ADJ	acl
+sorry	ADJ	acl
+Np, did he do well?	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+The lead is played by Leonardo Dicaprio	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+the movie is good	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+His firm Stratton Oakmont engaged in rampant corruption and fraud	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+I like him. Is he a good guy or bad?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+it led to Belfort fall	ADJ ADP ADV AUX CCONJ	acl acl:relcl advcl advcl:relcl advmod
+He seems like the bad guy since he engaged in fraud	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Yes, true. Does it have much action?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+It is a black comedy not action	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Under Hanna, Belfort engages in sex, fraud, and drugs	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+oh right. Gotcha. So, funny, but a dark funny.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Hanna is a fellow stockbroker for Rothschild	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Sounds interesting. I'm sure has true elements of that life.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Yep, Jordan Belfort later  starts a company with his buddy Donnie Azof	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Well, I guess he learned many tricks of the trade with the company	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp
+The company scams people	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+Will he try to not scam people in his new company?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc
+Nope, the basis of the company is to scam people	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+so, even when he starts his own, huh?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN	acl acl:relcl advcl advcl:relcl advmod amod appos aux
+Yep. Belfort also loses his wife after she discovers he has been sleeping with prostitutes and  using drugs	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM VERB X UNK	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound compound:ext compound:prt conj
+Can't say I blame her lol	ADJ ADP ADV AUX CCONJ DET	acl acl:relcl advcl advcl:relcl advmod amod
+yeah	ADJ	acl
+Two years later Jordan Belfort is arrested by the FBI	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case
+Did he get convicted?	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+However, he is given leniency for exchange for evidence against his colleagues	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj
+Sounds like a good movie. Can we finish now?	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass
+Yep. Thanks for chatting	ADJ ADP ADV AUX	acl acl:relcl advcl advcl:relcl
+thanks, I will watch it. SOunds good	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+Hi!	ADJ	acl
+Did you like the movie Despicable Me?	ADJ ADP ADV AUX CCONJ DET INTJ	acl acl:relcl advcl advcl:relcl advmod amod appos
+I did not realize this movie came out in 2010, that seemed so long ago.	ADJ ADP ADV AUX CCONJ DET INTJ NOUN NUM PART PRON PROPN PUNCT SCONJ SYM	acl acl:relcl advcl advcl:relcl advmod amod appos aux aux:pass case cc cc:preconj ccomp clf compound
