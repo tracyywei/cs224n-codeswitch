@@ -17,13 +17,13 @@ def finetune_mT5_codeswitched():
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
 
     device = torch.device("cuda")
-    print(f"Device name: {torch.cuda.get_device_name(device)}")
-    total_memory = torch.cuda.get_device_properties(device).total_memory
-    print(f"Total memory: {total_memory / (1024**3):.2f} GB")
-    allocated_memory = torch.cuda.memory_allocated(device)
-    print(f"Allocated memory: {allocated_memory / (1024**3):.2f} GB")
-    free_memory = total_memory - allocated_memory
-    print(f"Free memory: {free_memory / (1024**3):.2f} GB")
+    # print(f"Device name: {torch.cuda.get_device_name(device)}")
+    # total_memory = torch.cuda.get_device_properties(device).total_memory
+    # print(f"Total memory: {total_memory / (1024**3):.2f} GB")
+    # allocated_memory = torch.cuda.memory_allocated(device)
+    # print(f"Allocated memory: {allocated_memory / (1024**3):.2f} GB")
+    # free_memory = total_memory - allocated_memory
+    # print(f"Free memory: {free_memory / (1024**3):.2f} GB")
 
     tconf = TrainerConfig(
         max_epochs = 10,         # goal range is 5-10 epochs
@@ -61,13 +61,13 @@ def finetune_mT5_codeswitched_generation(dataset, label_dataset):
     dataset = ParsedDataset(dataset, label_dataset, tokenizer=tokenizer)
 
     tconf = TrainerConfig(
-        max_epochs=10,       # goal range is 5-10 epochs
+        max_epochs=60,       # goal range is 5-10 epochs
         batch_size=8,       # 16 gives OOM error
-        learning_rate=3e-4,
+        learning_rate=5e-5,
         lr_decay=True,
         betas = (0.9, 0.98),           
         weight_decay = 0.01,   # Regularization to prevent overfitting
-        num_workers=2,      # change to 2 when running on gpu (0 for cpu)
+        num_workers=4,      # change to 2 when running on gpu (0 for cpu)
     )
 
     trainer = Trainer(
@@ -120,7 +120,7 @@ def generate_codeswitched_corpus():
     model.load_state_dict(torch.load('mt5_finetuned.pth'))   # uncomment for gpu
     # model.load_state_dict(torch.load('mt5_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
-    generate_codeswitched_text_from_file(model, tokenizer, "dataset/enghinglish/test.txt", "outputs/enghinglish/codeswitched_test.txt")
+    generate_codeswitched_text_from_file(model, tokenizer, "dataset/annotated/annotated_hinglish_en_test.txt", "outputs/codeswitched_hinglish_en_test.txt")
 
 
 def main():

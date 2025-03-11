@@ -1,6 +1,5 @@
-import datasets
+import datasets                             # type: ignore    
 import random
-import torch                                # type: ignore
 
 from torch.utils.data import Dataset        # type: ignore
 from transformers import MT5Tokenizer       # type: ignore
@@ -13,8 +12,8 @@ class CodeswitchDataset(Dataset):
     self.tokenizer = tokenizer
     self.max_length = block_size
 
-    self.data = datasets.load_dataset("CAiRE/ASCEND")['train']
-    self.data = [datapoint['transcription'] for datapoint in self.data]
+    self.data = datasets.load_dataset("garrykuwanto/cspref")['train']
+    self.data = [datapoint['original_l2'] for datapoint in self.data]
     
     # add masking to the dataset -- partially taken from A4
     chars = set()
@@ -86,3 +85,8 @@ class CodeswitchDataset(Dataset):
            "attention_mask": encoding["attention_mask"].squeeze(),
            "labels": labels["input_ids"].squeeze() }            
   
+
+if __name__ == '__main__':
+  tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
+  dataset = CodeswitchDataset(tokenizer, 128)
+  print(dataset[0])
