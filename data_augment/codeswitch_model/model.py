@@ -48,7 +48,7 @@ def finetune_mT5_codeswitched():
     torch.save(model.state_dict(), 'mt5_intermediate_finetuned.pth')
     
 
-def finetune_mT5_codeswitched_generation(dataset):
+def finetune_mT5_codeswitched_generation(dataset, label_dataset):
     '''
     STEP 2: Finetune for codeswitch generation on the parsed dataset
     '''
@@ -58,7 +58,7 @@ def finetune_mT5_codeswitched_generation(dataset):
   
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
 
-    dataset = ParsedDataset(dataset, tokenizer=tokenizer)
+    dataset = ParsedDataset(dataset, label_dataset, tokenizer=tokenizer)
 
     tconf = TrainerConfig(
         max_epochs=10,       # goal range is 5-10 epochs
@@ -93,10 +93,52 @@ def generate_codeswitched_text(model, tokenizer, text):
     return tokenizer.decode(outputs[0], skip_special_tokens=True)
 
 
-if __name__ == '__main__':
-    # run step 1
-    # finetune_mT5_codeswitched()
+def generate_codeswitched_text_from_file(model, tokenizer, filename, output_filename):
+    '''
+    Generate codeswitched text from file
+    '''
+    with open(filename, 'r') as file:
+        lines = file.readlines()
+        for line in lines:
+            line = line.strip()
+            parts = line.strip().split("\t")
+             
+            sentence, pos_tags, dep_rels = parts
+            line = sentence + ' <POS> ' + pos_tags + ' <DEP> ' + dep_rels
 
-    # run step 2
-    dataset = "outputs/xnli_annotated_dev.txt"
-    finetune_mT5_codeswitched_generation(dataset)
+            with open(output_filename, 'a') as out:
+                codeswitched_line = generate_codeswitched_text(model, tokenizer, line)
+                out.write(codeswitched_line + '\n')
+                pass  
+
+
+def generate_codeswitched_corpus():
+    '''
+    Generate codeswitched corpus
+    '''
+    model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
+    model.load_state_dict(torch.load('mt5_finetuned.pth'))   # uncomment for gpu
+    # model.load_state_dict(torch.load('mt5_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
+    tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
+    generate_codeswitched_text_from_file(model, tokenizer, "dataset/enghinglish/test.txt", "outputs/enghinglish/codeswitched_test.txt")
+
+
+def main():
+    argparser = argparse.ArgumentParser()
+    argparser.add_argument("--step", type=str, help="step of ", required=True)
+    args = argparser.parse_args()
+
+    if args.step == "1":
+        finetune_mT5_codeswitched()
+    elif args.step == "2":
+        dataset = "dataset/annotated/annotated_hinglish_en.txt"
+        label_dataset = "dataset/enghinglish/dev.txt"
+        finetune_mT5_codeswitched_generation(dataset, label_dataset)
+    elif args.step == "3":
+        generate_codeswitched_corpus()
+    else:
+        print("Invalid step")
+
+
+if __name__ == '__main__':
+    main()
