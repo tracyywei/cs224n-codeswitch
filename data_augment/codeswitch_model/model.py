@@ -35,17 +35,19 @@ def finetune_mT5_codeswitched():
         warmup_tokens = 1e6,
         final_tokens = 10e9,
         num_workers = 4, 
+        ckpt_path="mt5_intermediate_finetuned_ckpt.pth"
     )
 
     trainer = Trainer(
         model=model,
         train_dataset=dataset,
         dev_dataset=None,
-        config=tconf
+        config=tconf,
+        stop_early=True
     )
 
     trainer.train()
-    torch.save(model.state_dict(), 'mt5_intermediate_finetuned.pth')
+    torch.save(model.state_dict(), 'mt5_intermediate_finetuned_4.pth')
     
 
 def finetune_mT5_codeswitched_generation(dataset, label_dataset):
@@ -53,7 +55,7 @@ def finetune_mT5_codeswitched_generation(dataset, label_dataset):
     STEP 2: Finetune for codeswitch generation on the parsed dataset
     '''
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
-    model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth'))   # uncomment for gpu
+    model.load_state_dict(torch.load('mt5_intermediate_finetuned_4.pth'))   # uncomment for gpu
     # model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
   
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
@@ -61,24 +63,26 @@ def finetune_mT5_codeswitched_generation(dataset, label_dataset):
     dataset = ParsedDataset(dataset, label_dataset, tokenizer=tokenizer)
 
     tconf = TrainerConfig(
-        max_epochs=60,       # goal range is 5-10 epochs
-        batch_size=8,       # 16 gives OOM error
-        learning_rate=5e-5,
+        max_epochs=150,    
+        batch_size=8,         # 16 gives OOM error
+        learning_rate=4e-5,
         lr_decay=True,
         betas = (0.9, 0.98),           
         weight_decay = 0.01,   # Regularization to prevent overfitting
         num_workers=4,      # change to 2 when running on gpu (0 for cpu)
+        ckpt_path="mt5_finetuned_ckpt.pth"
     )
 
     trainer = Trainer(
         model=model,
         train_dataset=dataset,
         dev_dataset=None,
-        config=tconf
+        config=tconf,
+        stop_early=True
     )
 
     trainer.train()
-    torch.save(model.state_dict(), 'mt5_finetuned.pth')
+    torch.save(model.state_dict(), 'mt5_finetuned_4.pth')
 
 
 def generate_codeswitched_text(model, tokenizer, text):
@@ -101,10 +105,10 @@ def generate_codeswitched_text_from_file(model, tokenizer, filename, output_file
         lines = file.readlines()
         for line in lines:
             line = line.strip()
-            parts = line.strip().split("\t")
              
-            sentence, pos_tags, dep_rels = parts
-            line = sentence + ' <POS> ' + pos_tags + ' <DEP> ' + dep_rels
+            # for annotated dataset
+            # sentence, pos_tags, dep_rels = line.split('\t')
+            # line = sentence + ' <POS> ' + pos_tags + ' <DEP> ' + dep_rels
 
             with open(output_filename, 'a') as out:
                 codeswitched_line = generate_codeswitched_text(model, tokenizer, line)
@@ -114,13 +118,13 @@ def generate_codeswitched_text_from_file(model, tokenizer, filename, output_file
 
 def generate_codeswitched_corpus():
     '''
-    Generate codeswitched corpus
+    STEP 3: Generate codeswitched corpus
     '''
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
-    model.load_state_dict(torch.load('mt5_finetuned.pth'))   # uncomment for gpu
+    model.load_state_dict(torch.load('mt5_finetuned_4.pth'))   # uncomment for gpu
     # model.load_state_dict(torch.load('mt5_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
-    generate_codeswitched_text_from_file(model, tokenizer, "dataset/annotated/annotated_hinglish_en_test.txt", "outputs/codeswitched_hinglish_en_test.txt")
+    generate_codeswitched_text_from_file(model, tokenizer, "dataset/enghinglish/test.txt", "outputs/codeswitched_hinglish_en_test-3.txt")
 
 
 def main():
