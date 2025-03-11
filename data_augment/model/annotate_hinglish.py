@@ -6,7 +6,7 @@ from dataset import UDParsingDataset
 from model import BertForParsing
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-HINGLISH_FILE = os.path.join(BASE_DIR, "../dataset/enghinglish/dev.txt")
+HINGLISH_FILE = os.path.join(BASE_DIR, "../dataset/enghinglish/test.txt")
 
 
 def annotate_file(input_file, output_file, model, tokenizer, config, pos_label2id, dep_label2id):
@@ -56,7 +56,7 @@ def annotate_file(input_file, output_file, model, tokenizer, config, pos_label2i
 def annotate_hinglish_file(model, tokenizer, config, pos_label2id, dep_label2id):
     output_dir = os.path.join(BASE_DIR, "annotated")
     os.makedirs(output_dir, exist_ok=True)
-    annotate_file(HINGLISH_FILE, os.path.join(output_dir, "annotated_hinglish_en.txt"), model, tokenizer, config, pos_label2id, dep_label2id)
+    annotate_file(HINGLISH_FILE, os.path.join(output_dir, "annotated_hinglish_en_test.txt"), model, tokenizer, config, pos_label2id, dep_label2id)
 
 
 if __name__ == "__main__":
