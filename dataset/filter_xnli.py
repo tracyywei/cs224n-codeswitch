@@ -15,8 +15,8 @@ def extract_english_xnli(input_file, output_file):
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 print(BASE_DIR)
-input_xnli_path = os.path.join(BASE_DIR, "./XNLI/xnli.test.tsv")
-output_hindi_path = os.path.join(BASE_DIR, "./XNLI/xnli.hindi.tsv")
-output_english_path = os.path.join(BASE_DIR, "./XNLI/xnli.english.tsv")
+input_xnli_path = os.path.join(BASE_DIR, "./XNLI/xnli.dev.tsv")
+output_hindi_path = os.path.join(BASE_DIR, "./XNLI/xnli.hindi.dev.tsv")
+output_english_path = os.path.join(BASE_DIR, "./XNLI/xnli.english.dev.tsv")
 extract_hindi_xnli(input_xnli_path, output_hindi_path)
 extract_english_xnli(input_xnli_path, output_english_path)
