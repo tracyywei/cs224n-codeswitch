@@ -16,7 +16,7 @@ def finetune_mT5_codeswitched():
     dataset = CodeswitchDataset(tokenizer=tokenizer, block_size=128)
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
 
-    device = torch.device("cuda")
+    # device = torch.device("cuda")
     # print(f"Device name: {torch.cuda.get_device_name(device)}")
     # total_memory = torch.cuda.get_device_properties(device).total_memory
     # print(f"Total memory: {total_memory / (1024**3):.2f} GB")
@@ -47,7 +47,7 @@ def finetune_mT5_codeswitched():
     )
 
     trainer.train()
-    torch.save(model.state_dict(), 'mt5_intermediate_finetuned_4.pth')
+    torch.save(model.state_dict(), 'mt5_intermediate_finetuned_5.pth')
     
 
 def finetune_mT5_codeswitched_generation(dataset, label_dataset):
@@ -55,7 +55,7 @@ def finetune_mT5_codeswitched_generation(dataset, label_dataset):
     STEP 2: Finetune for codeswitch generation on the parsed dataset
     '''
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
-    # model.load_state_dict(torch.load('mt5_intermediate_finetuned_4.pth'))   # uncomment for gpu
+    model.load_state_dict(torch.load('mt5_intermediate_finetuned_5.pth'))   # uncomment for gpu
     # model.load_state_dict(torch.load('mt5_intermediate_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
   
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
@@ -83,7 +83,7 @@ def finetune_mT5_codeswitched_generation(dataset, label_dataset):
     )
 
     trainer.train()
-    torch.save(model.state_dict(), 'mt5_finetuned_4.pth')
+    torch.save(model.state_dict(), 'mt5_finetuned_5.pth')
 
 
 def generate_codeswitched_text(model, tokenizer, text):
@@ -122,7 +122,7 @@ def generate_codeswitched_corpus():
     STEP 3: Generate codeswitched corpus
     '''
     model = MT5ForConditionalGeneration.from_pretrained("google/mt5-small")
-    model.load_state_dict(torch.load('mt5_finetuned_ckpt.pth'))   # uncomment for gpu
+    model.load_state_dict(torch.load('mt5_finetuned_5.pth'))   # uncomment for gpu
     # model.load_state_dict(torch.load('mt5_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
     generate_codeswitched_text_from_file(model, tokenizer, "dataset/enghinglish/test.txt", "outputs/codeswitched_hinglish_en_test-3.txt")
