@@ -1,5 +1,6 @@
 import logging
 import torch
+torch.cuda.empty_cache()
 import random
 import pprint
 #2
@@ -32,6 +33,9 @@ class Model(model.XNLI.base.Model):
         random.seed(args.train.seed)
         super().__init__(args, DatasetTool, inputs)
         BERTTool.init(self.args)
+        _, _, _, _, worddict, _ = inputs
+        self.worddict = worddict
+        print(self.worddict)
         self.bert = BERTTool.multi_bert
         self.tokener = BERTTool.multi_tokener
         self.pad = BERTTool.multi_pad
@@ -112,19 +116,68 @@ class Model(model.XNLI.base.Model):
             return x
 
     def cross_list(self, x):
-        return [self.cross(xx, not (self.training and self.args.train.ratio >= random.random())) for xx in x["utterance"]]
+        return {
+        "premise": [self.cross(word, not (self.training and self.args.train.ratio >= random.random())) 
+                    for word in x["premise"]],
+        "hypothesis": [self.cross(word, not (self.training and self.args.train.ratio >= random.random())) 
+                       for word in x["hypothesis"]]
+        }
 
     def get_info(self, batch):
-        premises = [self.cross_list(x)["premise"] for x in batch]
-        hypotheses = [self.cross_list(x)["hypothesis"] for x in batch]
-        inputs = self.tokenizer(premises, hypotheses, padding=True, truncation=True, return_tensors="pt")
+        token_ids = []
+        token_loc = []
+        
+        for x in batch:
+            premise = x["premise"]
+            hypothesis = x["hypothesis"]
+            
+            per_token_ids = [self.cls]  # CLS token at the beginning
+            per_token_loc = []
+            cur_idx = 1 
 
-        return inputs["input_ids"].to(self.device), inputs["attention_mask"].to(self.device)
+            for token in premise.split():
+                tmp_ids = self.tokener.encode(token, add_special_tokens=False)
+                per_token_ids += tmp_ids
+                per_token_loc.append(cur_idx)
+                cur_idx += len(tmp_ids)
+
+            per_token_ids += [self.sep]
+            cur_idx += 1
+
+            for token in hypothesis.split():
+                tmp_ids = self.tokener.encode(token, add_special_tokens=False)
+                per_token_ids += tmp_ids
+                per_token_loc.append(cur_idx)
+                cur_idx += len(tmp_ids)
+
+            per_token_ids += [self.sep]
+            token_ids.append(per_token_ids)
+            token_loc.append(per_token_loc)
+
+        max_len = max(len(p) for p in token_ids)
+        mask_ids = []
+        type_ids = []
+
+        for per_token_ids in token_ids:
+            per_mask_ids = [1] * len(per_token_ids) + [0] * (max_len - len(per_token_ids))
+            per_token_ids += [self.pad] * (max_len - len(per_token_ids))
+            per_type_ids = [0] * max_len
+
+            mask_ids.append(per_mask_ids)
+            type_ids.append(per_type_ids)
+
+        token_ids = torch.Tensor(token_ids).long().to(self.device)
+        mask_ids = torch.Tensor(mask_ids).long().to(self.device)
+        type_ids = torch.Tensor(type_ids).long().to(self.device)
+
+        return token_loc, token_ids, type_ids, mask_ids
 
     def forward(self, batch):
-        input_ids, attention_mask = self.get_info(batch)
-        outputs = self.bert(input_ids, attention_mask=attention_mask)
-        pooled_output = outputs.pooler_output  # [batch_size, 768]
+        token_loc, input_ids, type_ids, attention_mask = self.get_info(batch)
+
+        outputs = self.bert(input_ids, token_type_ids=type_ids, attention_mask=attention_mask)
+        pooled_output = outputs[1] if isinstance(outputs, tuple) else outputs.pooler_output
+
         logits = self.classifier(pooled_output)
 
         loss = torch.tensor(0.0)
