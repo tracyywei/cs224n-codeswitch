@@ -59,10 +59,7 @@ class Model(model.XNLI.base.Model):
 
     def save_model(self, epoch):
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        save_dir = os.path.join(BASE_DIR, 'model', 'XNLI', 'saved')
-        os.makedirs(save_dir, exist_ok=True)
-        
-        save_path = os.path.join(save_dir, f"model_epoch_{epoch}.pt")
+        save_path = os.path.join(BASE_DIR, f"./saved/model_epoch_{epoch}.pt")
         
         torch.save({
             "epoch": epoch,
@@ -92,7 +89,7 @@ class Model(model.XNLI.base.Model):
         return summary
 
 
-    def run_train(self, train, dev, test, start_epoch=0):
+    def run_train(self, train, dev, test):
         self.set_optimizer()
         iteration = 0
         best = {}
@@ -100,7 +97,7 @@ class Model(model.XNLI.base.Model):
         effective_batch_size = self.args.train.batch
         logging.info(f"Starting training with batch size {effective_batch_size}")
 
-        for epoch in range(start_epoch, self.args.train.epoch):
+        for epoch in range(self.args.train.epoch):
             self.train()
             logging.info(f"Starting training epoch {epoch}")
             summary = self.get_summary(epoch, iteration)
@@ -155,30 +152,9 @@ class Model(model.XNLI.base.Model):
 
             self.save_model(epoch)  # Save model at each epoch
 
-
-    def cross(self, x, disable=False):
-        if not disable and self.training and (self.args.train.cross >= random.random()):
-            lan = random.randint(0,len(self.args.dict_list) - 1)
-            if x in self.worddict.src2tgt[lan]:
-                return self.worddict.src2tgt[lan][x][random.randint(0,len(self.worddict.src2tgt[lan][x]) - 1)]
-            else:
-                return x
-        else:
-            return x
-
-    def cross_list(self, x):
-        return {
-        "premise": [self.cross(word, not (self.training and self.args.train.ratio >= random.random())) 
-                    for word in x["premise"]],
-        "hypothesis": [self.cross(word, not (self.training and self.args.train.ratio >= random.random())) 
-                       for word in x["hypothesis"]]
-        }
-
     def get_info(self, batch):
         token_ids = []
         token_loc = []
-        
-        MAX_LEN = 512 
         
         for x in batch:
             premise = x["premise"]
@@ -188,7 +164,7 @@ class Model(model.XNLI.base.Model):
             per_token_loc = []
             cur_idx = 1 
 
-            for token in premise:
+            for token in premise.split():
                 tmp_ids = self.tokener.encode(token, add_special_tokens=False)
                 per_token_ids += tmp_ids
                 per_token_loc.append(cur_idx)
@@ -197,19 +173,13 @@ class Model(model.XNLI.base.Model):
             per_token_ids += [self.sep]
             cur_idx += 1
 
-            for token in hypothesis:
+            for token in hypothesis.split():
                 tmp_ids = self.tokener.encode(token, add_special_tokens=False)
                 per_token_ids += tmp_ids
                 per_token_loc.append(cur_idx)
                 cur_idx += len(tmp_ids)
 
             per_token_ids += [self.sep]
-            
-            # Truncate if necessary
-            if len(per_token_ids) > MAX_LEN:
-                per_token_ids = per_token_ids[:MAX_LEN]
-                per_token_loc = per_token_loc[:MAX_LEN]
-
             token_ids.append(per_token_ids)
             token_loc.append(per_token_loc)
 
@@ -231,9 +201,8 @@ class Model(model.XNLI.base.Model):
 
         return token_loc, token_ids, type_ids, mask_ids
 
-
     def forward(self, batch):
-        token_loc, input_ids, type_ids, attention_mask = self.get_info([self.cross_list(x) for x in batch])
+        token_loc, input_ids, type_ids, attention_mask = self.get_info(batch)
 
         outputs = self.bert(input_ids, token_type_ids=type_ids, attention_mask=attention_mask)
         pooled_output = outputs[1] if isinstance(outputs, tuple) else outputs.pooler_output
@@ -250,26 +219,9 @@ class Model(model.XNLI.base.Model):
 
     def start(self, inputs):
         train, dev, test, _, _, _ = inputs
-        start_epoch = 0
         if self.args.model.resume is not None:
-            start_epoch = self.load(self.args.model.resume)
+            self.load(self.args.model.resume)
         if not self.args.model.test:
-            self.run_train(train, dev, test, start_epoch)
+            self.run_train(train, dev, test)
         if self.args.model.resume is not None:
             self.run_eval(train, dev, test)
-
-    def load(self, checkpoint_path):
-        checkpoint = torch.load(checkpoint_path, map_location=torch.device('cuda' if torch.cuda.is_available() else 'cpu'))
-        
-        # Restore the model and optimizer state
-        self.load_state_dict(checkpoint['model_state_dict'])
-        self.optimizer.load_state_dict(checkpoint['optimizer_state_dict'])
-        
-        # Optionally, if you saved a scheduler state:
-        if 'scheduler_state_dict' in checkpoint:
-            self.scheduler.load_state_dict(checkpoint['scheduler_state_dict'])
-        
-        # Optionally, you can also get the epoch number and use it in your training loop
-        start_epoch = checkpoint['epoch'] + 1
-        print(f"Resuming training from epoch {start_epoch}")
-        return start_epoch
