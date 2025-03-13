@@ -4,6 +4,25 @@ import random
 from torch.utils.data import Dataset        # type: ignore
 from transformers import MT5Tokenizer       # type: ignore
 
+import pandas as pd                         # type: ignore
+from indic_transliteration import sanscript # type: ignore
+
+def romanize_hindi():
+    '''
+    Romanize Hindi text in a TSV file
+    '''
+    df = pd.read_csv("../dataset/CSPref/train-00000-of-00001.tsv", sep="\t", on_bad_lines='skip')
+    column_name = df.columns[1]  # original_l2 - hindi script text
+
+    df_romanized = pd.DataFrame({
+        "romanized_text": df[column_name].astype(str).apply(
+            lambda x: sanscript.transliterate(x, sanscript.DEVANAGARI, sanscript.ITRANS) if isinstance(x, str) else x
+        )
+    })
+
+    df_romanized.to_csv("../dataset/CSPref/romanized_cspref_train.tsv", sep="\t", index=False)
+
+
 class CodeswitchDataset(Dataset):
   def __init__(self, tokenizer, block_size):
     self.data = []
@@ -12,8 +31,9 @@ class CodeswitchDataset(Dataset):
     self.tokenizer = tokenizer
     self.max_length = block_size
 
+    # hugging face dataset 
     self.data = datasets.load_dataset("garrykuwanto/cspref")['train']
-    self.data = [datapoint['original_l2'] for datapoint in self.data]
+    self.data = [sanscript.transliterate(datapoint['original_l2'], sanscript.DEVANAGARI, sanscript.ITRANS) for datapoint in self.data]
     
     # add masking to the dataset -- partially taken from A4
     chars = set()
@@ -87,6 +107,10 @@ class CodeswitchDataset(Dataset):
   
 
 if __name__ == '__main__':
-  tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
-  dataset = CodeswitchDataset(tokenizer, 128)
-  print(dataset[0])
+  #tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
+  #dataset = CodeswitchDataset(tokenizer, 128)
+  #print(dataset[0])
+
+  romanize_hindi()
+  
+
