@@ -45,6 +45,7 @@ class Trainer:
         self.dev_dataset = dev_dataset
         self.config = config
         self.stop_early = stop_early
+        self.prev_dev_loss = 100.0
 
         # take over whatever gpus are on the system
         self.device = 'cpu'
@@ -126,23 +127,22 @@ class Trainer:
                         config.writer.add_scalar('train/loss', loss.item(), step)
                         config.writer.add_scalar('train/lr', lr, step)
                     step += 1
-                    
-                    if self.stop_early and loss.item() < 0.1:
-                        break
 
             if not is_train:
                 logger.info("Dev loss: %f", np.mean(losses))
                 print("Dev loss: %f" % np.mean(losses))
+                return np.mean(losses)
             else:
                 return loss.item()
 
         for epoch in range(config.max_epochs):
             loss = run_epoch('train')
-            if self.stop_early and loss < 0.1:
-                break
-
+            
             if self.dev_dataset is not None:
-                run_epoch('dev')
+                loss = run_epoch('dev')
+                if loss > self.prev_dev_loss:
+                    break
+                self.prev_dev_loss = loss
             self.save_checkpoint()
 
     def evaluate(self):

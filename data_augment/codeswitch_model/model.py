@@ -1,5 +1,6 @@
 import argparse
 import torch # type: ignore
+import datasets # type: ignore
 
 from transformers import MT5ForConditionalGeneration, MT5Tokenizer # type: ignore
 from trainer import Trainer, TrainerConfig
@@ -102,6 +103,7 @@ def generate_codeswitched_text_from_file(model, tokenizer, filename, output_file
     '''
     Generate codeswitched text from file
     '''
+
     with open(filename, 'r') as file:
         lines = file.readlines()
         for line in lines:
@@ -111,10 +113,71 @@ def generate_codeswitched_text_from_file(model, tokenizer, filename, output_file
             # sentence, pos_tags, dep_rels = line.split('\t')
             # line = sentence + ' <POS> ' + pos_tags + ' <DEP> ' + dep_rels
 
-            with open(output_filename, 'a') as out:
+            with open(output_filename, 'w') as out:
                 codeswitched_line = generate_codeswitched_text(model, tokenizer, line)
                 out.write(codeswitched_line + '\n')
-                pass  
+
+
+def generate_codeswitched_text_batch(model, tokenizer, texts, max_length=128):
+    '''
+    Generate codeswitched text for a batch of inputs to speed up runtime
+    '''
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    model.to(device)
+    
+    inputs = tokenizer(texts, return_tensors="pt", padding=True, truncation=True, max_length=max_length)
+    inputs = {key: val.to(device) for key, val in inputs.items()}
+
+    with torch.no_grad():
+        with torch.autocast("cuda"):  
+            outputs = model.generate(**inputs, max_length=max_length)
+
+    generated_texts = tokenizer.batch_decode(outputs, skip_special_tokens=True)
+    return generated_texts
+
+
+def generate_codewitched_text_from_dataset(model, tokenizer, output_filename, batch_size=64):
+    '''
+    Generate codeswitched text from dataset
+    '''
+    dataset = datasets.load_dataset("facebook/xnli", "en", split="train")
+    reduced_length = int(len(dataset) * 0.2)
+    dataset = dataset.shuffle()
+    dataset = dataset.select(range(reduced_length))
+
+    print('Dataset loaded. Generating codeswitched text...')
+
+    with open(output_filename, 'w') as out:
+        with open('dataset/groundtruth/randomized_reduced_xnli.txt', 'w') as label_out:
+            batch_premises, batch_hypotheses = [], []
+
+            for idx, datapoint in enumerate(dataset):
+                batch_premises.append(datapoint['premise'])
+                batch_hypotheses.append(datapoint['hypothesis'])
+                label_out.write(datapoint['premise'] + '\n')
+                label_out.write(datapoint['hypothesis'] + '\n')
+
+                # Process in batches
+                if len(batch_premises) == batch_size:
+                    codeswitched_premises = generate_codeswitched_text_batch(model, tokenizer, batch_premises)
+                    codeswitched_hypotheses = generate_codeswitched_text_batch(model, tokenizer, batch_hypotheses)
+
+                    for cs_premise, cs_hypothesis in zip(codeswitched_premises, codeswitched_hypotheses):
+                        out.write(cs_premise + '\n')
+                        out.write(cs_hypothesis + '\n')
+
+                    batch_premises, batch_hypotheses = [], []
+
+                if idx % (batch_size * 100) == 0:
+                    print(f"Processed {idx} examples")
+
+            # Process remaining examples (if batch size doesn't divide dataset size)
+            if batch_premises:
+                codeswitched_premises = generate_codeswitched_text_batch(model, tokenizer, batch_premises)
+                codeswitched_hypotheses = generate_codeswitched_text_batch(model, tokenizer, batch_hypotheses)
+                for cs_premise, cs_hypothesis in zip(codeswitched_premises, codeswitched_hypotheses):
+                    out.write(cs_premise + '\n')
+                    out.write(cs_hypothesis + '\n')
 
 
 def generate_codeswitched_corpus():
@@ -125,7 +188,9 @@ def generate_codeswitched_corpus():
     model.load_state_dict(torch.load('mt5_finetuned_5.pth'))   # uncomment for gpu
     # model.load_state_dict(torch.load('mt5_finetuned.pth', map_location=torch.device('cpu')))   # uncomment for cpu
     tokenizer = MT5Tokenizer.from_pretrained("google/mt5-small")
-    generate_codeswitched_text_from_file(model, tokenizer, "dataset/enghinglish/test.txt", "outputs/codeswitched_hinglish_en_test-3.txt")
+    
+    # generate_codeswitched_text_from_file(model, tokenizer, "dataset/enghinglish/test.txt", "outputs/codeswitched_hinglish_en_test-3.txt")
+    generate_codewitched_text_from_dataset(model, tokenizer, "outputs/codeswitched_eval.txt")
 
 
 def main():
