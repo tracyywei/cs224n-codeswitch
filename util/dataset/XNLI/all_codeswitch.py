@@ -43,6 +43,7 @@ class DatasetTool(object):
 
     def get(args):
         train_file = load_dataset("facebook/xnli", "en", split="train")
+        # REPLACE TRAIN_FILE WITH CODESWITCHED XNLI FILE
         dev_file = load_dataset("facebook/xnli", "en", split="validation")
         test_file = load_dataset("facebook/xnli", "hi", split="test")
 
