@@ -7,21 +7,52 @@ import util.tool
 from datasets import load_dataset, Dataset
 
 class DatasetTool(object):
-    def get_set(file):
+    
+    def get_set(code_switched_file, original_file=None):
         dataset = []
         label_map = {"entailment": 0, "neutral": 1, "contradiction": 2}
 
-        # modified to handle huggingface xnli datasets
-        for example in file:
-            label = example["label"]
-            if isinstance(label, str) and label not in label_map:
-                continue 
+        if isinstance(code_switched_file, str) and code_switched_file.endswith(".txt"):
+            with open(code_switched_file, encoding="utf-8") as f:
+                cs_lines = [line.strip() for line in f if line.strip()]
+            num_cs_examples = len(cs_lines) // 2
+            with open(original_file, encoding="utf-8") as f:
+                orig_lines = [line.strip() for line in f if line.strip()]
+            num_orig_examples = len(orig_lines) // 2
 
-            dataset.append({
-                "premise": example["premise"],
-                "hypothesis": example["hypothesis"],
-                "label": label_map.get(label, label)
-            })
+            assert num_cs_examples == num_orig_examples, "Mismatch between codeswitched and original file examples."
+
+            original_pairs = [(orig_lines[2 * i], orig_lines[2 * i + 1]) for i in range(num_orig_examples)]
+
+            original_train = load_dataset("facebook/xnli", "en", split="train")
+            
+            xnli_mapping = {}
+            for ex in original_train:
+                key = (ex["premise"].strip(), ex["hypothesis"].strip())
+                xnli_mapping[key] = ex["label"]
+
+            for i in range(num_orig_examples):
+                orig_pair = original_pairs[i]
+                if orig_pair not in xnli_mapping:
+                    raise ValueError(f"Original example not found in XNLI dataset: {orig_pair}")
+                label = xnli_mapping[orig_pair]
+                cs_premise = cs_lines[2 * i]
+                cs_hypothesis = cs_lines[2 * i + 1]
+                dataset.append({
+                    "premise": cs_premise,
+                    "hypothesis": cs_hypothesis,
+                    "label": label_map.get(label, label) if isinstance(label, str) else label
+                })
+        else:
+            for example in code_switched_file:
+                label = example["label"]
+                if isinstance(label, str) and label not in label_map:
+                    continue 
+                dataset.append({
+                    "premise": example["premise"],
+                    "hypothesis": example["hypothesis"],
+                    "label": label_map.get(label, label)
+                })
 
         return dataset
 
@@ -42,12 +73,11 @@ class DatasetTool(object):
                 idx_dict.src2tgt[-1][src].append(tgt)
 
     def get(args):
-        train_file = load_dataset("facebook/xnli", "en", split="train")
-        # REPLACE TRAIN_FILE WITH CODESWITCHED XNLI FILE
+        train_file = "outputs/codeswitched_eval.txt"
         dev_file = load_dataset("facebook/xnli", "en", split="validation")
         test_file = load_dataset("facebook/xnli", "hi", split="test")
 
-        train = DatasetTool.get_set(train_file)
+        train = DatasetTool.get_set(train_file, "dataset/groundtruth/randomized_reduced_xnli.txt")
         random.shuffle(train)
         dev = DatasetTool.get_set(dev_file)
         test = DatasetTool.get_set(test_file)

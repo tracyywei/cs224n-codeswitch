@@ -59,7 +59,10 @@ class Model(model.XNLI.base.Model):
 
     def save_model(self, epoch):
         BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-        save_path = os.path.join(BASE_DIR, f"./saved/model_epoch_{epoch}.pt")
+        save_dir = os.path.join(BASE_DIR, 'model', 'XNLI', 'saved')
+        os.makedirs(save_dir, exist_ok=True)
+        
+        save_path = os.path.join(save_dir, f"model_epoch_{epoch}.pt")
         
         torch.save({
             "epoch": epoch,
@@ -151,6 +154,25 @@ class Model(model.XNLI.base.Model):
             logging.info(pprint.pformat(summary))
 
             self.save_model(epoch)  # Save model at each epoch
+
+
+    def cross(self, x, disable=False):
+        if not disable and self.training and (self.args.train.cross >= random.random()):
+            lan = random.randint(0,len(self.args.dict_list) - 1)
+            if x in self.worddict.src2tgt[lan]:
+                return self.worddict.src2tgt[lan][x][random.randint(0,len(self.worddict.src2tgt[lan][x]) - 1)]
+            else:
+                return x
+        else:
+            return x
+
+    def cross_list(self, x):
+        return {
+        "premise": [self.cross(word, not (self.training and self.args.train.ratio >= random.random())) 
+                    for word in x["premise"]],
+        "hypothesis": [self.cross(word, not (self.training and self.args.train.ratio >= random.random())) 
+                       for word in x["hypothesis"]]
+        }
 
     def get_info(self, batch):
         token_ids = []
